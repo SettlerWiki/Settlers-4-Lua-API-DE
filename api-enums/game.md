@@ -1,0 +1,9 @@
+# Game
+
+```
+Game.RACE_DARK
+Game.RACE_MAYA
+Game.RACE_ROMAN
+Game.RACE_TROJAN
+Game.RACE_VIKING
+```
