@@ -31,7 +31,7 @@
   * [Ground-Library](tutorials/community-libraries/lua-ground-library.md)
 * [Vollständige Mapscripts](tutorials/complete-mapscripts/README.md)
   * [Siedler IV WM 2021 "The Woods"](tutorials/complete-mapscripts/tournament-map-script.md)
-  * [Turnier Map Script 2vs2](tutorials/complete-mapscripts/tournament-map-script-1.md)
+  * [Turnier Map Script 2vs2 2022](tutorials/complete-mapscripts/tournament-map-script-1.md)
 
 ## Library Functions
 
