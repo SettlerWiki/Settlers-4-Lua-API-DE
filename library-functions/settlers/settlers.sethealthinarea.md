@@ -1,8 +1,8 @@
 # Settlers.SetHealthInArea
 
-## `Settlers.SetHealthInArea(Spieler, Siedlertyp, x, y, Radius, Gesundheit)`
+## `Settlers.SetHealthInArea(Spieler, Siedlertyp, x, y, Radius, UnderOrExactlyHealth)`
 
-Funktioniert als ein Lazarettbefehl - alle Einheiten vom `Siedlertyp` die unter der angegeben `Gesundheit` sind, werden hochgeheilt.&#x20;
+Funktioniert als ein Lazarettbefehl - alle Einheiten vom `Siedlertyp` die unter der angegeben `UnderOrExactlyHealth` sind, werden hochgeheilt.&#x20;
 
 #### Rückgabewert
 
