@@ -4,7 +4,7 @@ Die Function [register\_functions()](../../library-functions/global-functions/re
 
 
 
-Um eine von auch registrierte Funktion nun auch einem Event zuzuordnen benötigt ihr noch diue Funktion [request\_event()](../../library-functions/global-functions/request\_event.md) innerhalb der [new\_game()](../../library-functions/global-functions/new\_game.md). Die häufigsten Events die verwendet werden sind **Events.TICK**, **Events.FIRST\_TICK\_OF\_NEW\_OR\_LOADED\_GAME** und **Events.VICTORY\_CONDITION\_CHECK**
+Um eine von auch registrierte Funktion nun auch einem Event zuzuordnen benötigt ihr noch die Funktion [request\_event()](../../library-functions/global-functions/request\_event.md) innerhalb der [new\_game()](../../library-functions/global-functions/new\_game.md). Die häufigsten Events die verwendet werden sind **Events.TICK**, **Events.FIRST\_TICK\_OF\_NEW\_OR\_LOADED\_GAME** und **Events.VICTORY\_CONDITION\_CHECK**
 
 ```lua
 --setze global eine variable "zahl" mit dem wert 5
