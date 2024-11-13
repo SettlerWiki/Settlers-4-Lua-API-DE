@@ -33,6 +33,6 @@ none
 ```lua
 Game.PingPlayer(100, 80, 3)    // Ping Spieler 3 an (100, 80) für je 15 Sekunden
 Game.PingPlayer(100, 80, 1, 0)    // ... Spieler 1 ohne Pfeil, nur Animation auf der Minimap
-Game.PingPlayer(100, 80, 2 "click me")    // ... Spieler 2 mit Textausgabe, Bildschirm springt zu den Koordinaten
+Game.PingPlayer(100, 80, 2, "click me")    // ... Spieler 2 mit Textausgabe, Bildschirm springt zu den Koordinaten
 Game.PingPlayer(100, 80, 8, 15, 0, "click me")    // ... Spieler 8 nur Pfeil und Nachricht
 ```

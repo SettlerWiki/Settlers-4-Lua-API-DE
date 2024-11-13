@@ -33,6 +33,6 @@ none
 ```lua
 Game.PingTeam(100, 80, 3)    // Ping Team 3 an (100, 80) für je 15 Sekunden
 Game.PingTeam(100, 80, 1, 0)    // ... Team 1 ohne Pfeil, nur Animation auf der Minimap
-Game.PingTeam(100, 80, 2 "click me")    // ... Team 2 mit Textausgabe, Bildschirm springt zu den Koordinaten
+Game.PingTeam(100, 80, 2, "click me")    // ... Team 2 mit Textausgabe, Bildschirm springt zu den Koordinaten
 Game.PingTeam(100, 80, 8, 15, 0, "click me")    // ... Team 8 nur Pfeil und Nachricht
 ```
