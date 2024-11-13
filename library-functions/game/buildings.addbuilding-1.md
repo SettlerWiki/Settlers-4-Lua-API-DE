@@ -12,17 +12,17 @@ Zusätzlich wird ein Sound abgespielt.
 
 `playerID [1, 8]`: siehe [game.localplayer.md](game.localplayer.md "mention"), **Index 0 ist ungültig!**
 
-`arrowDuration`: Zeit in Spiel-Sekunden, wie lange der Pfeil auf der Karte angezeigt werden soll.
+`arrowDuration` (optional): Zeit in Spiel-Sekunden, wie lange der Pfeil auf der Karte angezeigt werden soll.
 
-`minimapDuration`: Zeit in Spiel-Sekunden, wie lange die blinkende Animation auf der Minimap  angezeigt werden soll.
+`minimapDuration` (optional): Zeit in Spiel-Sekunden, wie lange die blinkende Animation auf der Minimap  angezeigt werden soll.
 
-`[msg, ...]` : siehe [buildings.addbuilding-4.md](buildings.addbuilding-4.md "mention")
+`[msg, ...]` (optional): siehe [buildings.addbuilding-4.md](buildings.addbuilding-4.md "mention")
 
 ## `Game.PingPlayer(x, y, playerID[, msg[, icon=8[, lifetime_s=120[, x, y]]]])`
 
 Gleiche Funktion wie oben, nur mit anderen optionalen Parametern (hier gilt:`arrow- & minimapDuration = 15`).
 
-`[msg, ...]` : siehe [buildings.addbuilding-4.md](buildings.addbuilding-4.md "mention")
+`[msg, ...]` (optional): siehe [buildings.addbuilding-4.md](buildings.addbuilding-4.md "mention")
 
 #### Rückgabewert
 
