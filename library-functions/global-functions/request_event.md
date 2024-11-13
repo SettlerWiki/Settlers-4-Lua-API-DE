@@ -8,8 +8,8 @@ Jede Funktion, die vom Spiel selbst aufgerufen wird, muss hier angefordert werde
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | Events.TICK                                   | Funktion wird jeden Tick aufgerufen                                                              |
 | Events.FIVE\_TICKS                            | Funktion wird alle fünf Ticks aufgerufen                                                         |
-| Events.VICTORY\_CONDITION\_CHECK              | ähnliche wie FIVE\_TICKS, aber nur, solange das Spiel nicht gewonnen oder verloren wurde         |
-| Events.FIRST\_TICK\_OF\_NEW\_OR\_LOADED\_GAME | Beim Starten oder neu laden eines Spiels                                                         |
+| Events.VICTORY\_CONDITION\_CHECK              | ähnlich wie FIVE\_TICKS, aber nur, solange das Spiel nicht gewonnen oder verloren wurde          |
+| Events.FIRST\_TICK\_OF\_NEW\_OR\_LOADED\_GAME | <p>Beim Starten oder neu laden eines Spiels<br>(nach Events.FIRST_TICK_OF_NEW_GAME)</p>          |
 | Events.FIRST\_TICK\_OF\_NEW\_GAME             | Beim Starten eines neuen Spiels.                                                                 |
 | Events.PRODUCTION                             | unbekannt, vermutlich wenn ein Produktionsvorgang beendet wurde.                                 |
 | Events.SPACE                                  | unbekannt                                                                                        |

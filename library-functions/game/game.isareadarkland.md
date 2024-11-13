@@ -4,6 +4,8 @@
 
 Überprüft, ob ein Gebiet vollständig mit dunklem Land verseucht wurde.
 
+`Radius`: > 0
+
 #### Rückgabewert
 
 True oder False

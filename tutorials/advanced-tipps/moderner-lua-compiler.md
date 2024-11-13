@@ -14,17 +14,17 @@ Um also euer Script auf Syntaxfehler zu überprüfen, geht am besten wie folgt v
 
 Zum schreiben in die Konsole:\
 `luai`\
-``\
-``Ausführen einer Datei:\
+\
+Ausführen einer Datei:\
 `luai dateiname.lua`\
-``\
-``Interaktiver Modus in der Kommandozeile (Zum Beenden Strg+C):\
+\
+Interaktiver Modus in der Kommandozeile (Zum Beenden Strg+C):\
 `luai -q (ohne dem > vor jeder eingegebenen Zeile)`\
 `luai -i`\
-``\
-``Konsoleneingaben bis zum Beenden mit Strg+C als ein Skript gelesen bekommen:\
+\
+Konsoleneingaben bis zum Beenden mit Strg+C als ein Skript gelesen bekommen:\
 `luai -`
 
 
 
-{% file src="../../.gitbook/assets/luai.exe" %}
+{% file src="../../.gitbook/assets/luai.zip" %}

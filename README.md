@@ -2,7 +2,7 @@
 
 ## Siedler IV Scripting Tutorials
 
-Hallo und herzlich wilkommen in dieser kleinen API & Scriptsammlung rund zum Thema Siedler 4 Maps. Wir geben dir erste Tipps, Tricks und Codeschnipsel an die Hand, damit du deine Map in Siedler genauso gestalten kannst wie du es möchtest. Dabei verwendet Siedler die Programmiersprache[ Lua in der alten Version 3.2](https://www.lua.org/manual/3.2/manual.html) - diese Sprache ist recht simpel und bietet auch unerfahrenen Leuten somit die Möglichkeit ins Scripten einzusteigen.&#x20;
+Hallo und herzlich willkommen in dieser kleinen API & Scriptsammlung rund zum Thema Siedler 4 Maps. Wir geben dir erste Tipps, Tricks und Codeschnipsel an die Hand, damit du deine Map in Siedler genauso gestalten kannst wie du es möchtest. Dabei verwendet Siedler die Programmiersprache[ Lua in der alten Version 3.2](https://www.lua.org/manual/3.2/manual.html) - diese Sprache ist recht simpel und bietet auch unerfahrenen Leuten somit die Möglichkeit ins Scripten einzusteigen.&#x20;
 
 Diese Dokumentation befindet sich noch im Aufbau, und wird soweit es geht ständig erweitert.&#x20;
 

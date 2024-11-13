@@ -4,6 +4,8 @@
 
 Löscht alle Dekoobjekte im genannten Gebiet. Dies schließt auch Dinge wie Bäume, Getreide und Pilze von Pilzfarmen mit ein.
 
+`Radius`: > 0
+
 #### Rückgabewert
 
 none

@@ -1,12 +1,17 @@
 # Buildings.ExistsBuildingInArea
 
-## `Buildings.ExistsBuildingInArea(Partei, Gebäudetyp, x, y, radius, Gebäudestatus)`
+## `Buildings.ExistsBuildingInArea(Partei, Gebäudetyp, x, y, Radius, Gebäudestatus)`
 
-Ähnlich wie Buildings.Amount, aber auf einen bestimmten Bereich begrenzt.
+Testet, ob um die Koordinaten `x, y` im `Radius` ein Gebäude des `Gebäudetyp` der `Partei` vorhanden ist.
+
+`Radius`: > 0
+
+`Gabäudestatus` scheint keinen Einfluss zu haben...
 
 #### Rückgabewert
 
-Anzahl der gefundenen Gebäude.
+0: existiert **nicht**\
+1: Gebäude existiert
 
 #### Beispiel
 

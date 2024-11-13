@@ -24,9 +24,9 @@ dbg.stm("Ja, der globale Bereich wird vom Spiel aufgerufen!") -- nicht schön!!!
 ```
 
 Beim Spielstart sieht die Konsole möglicherweise so aus\
-![](https://web.archive.org/web/20200829133418im\_/https://i.imgur.com/dUluw2S.png)\
+<img src="https://web.archive.org/web/20200829133418im_/https://i.imgur.com/dUluw2S.png" alt="" data-size="original">\
 Nach dem Laden des Spielstandes:\
-![](https://web.archive.org/web/20200829133418im\_/https://i.imgur.com/8G8gZ5n.png)\
+<img src="https://web.archive.org/web/20200829133418im_/https://i.imgur.com/8G8gZ5n.png" alt="" data-size="original">\
 
 
 ## **Funktionskriterien**
