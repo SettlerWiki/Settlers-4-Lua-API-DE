@@ -24,7 +24,7 @@ Und das Script sollte dann funktionieren. Ein Beispielbild gibt's hier ganz unte
 
 ## **Direkt in der Mapdatei hinterlegen**
 
-Sofern du den Script Editor noch nicht hast, kannst du ihn dir entweder zusammen mit [Settlers United ](https://settlers-united.com)holen, oder einzeln auf der [Homepage von MuffinMario](https://s4.muffinmar.io/downloads/) oder auf der [Einführungsseite ](../../)\
+Sofern du den Script Editor noch nicht hast, kannst du ihn dir entweder zusammen mit [Settlers United ](https://settlers-united.com/)holen, oder einzeln auf der [Homepage von MuffinMario](https://s4.muffinmar.io/downloads/) oder auf der [Einführungsseite ](../../)\
 \
 Sobald du den Installationsschritten gefolgt bist, solltest du beim erneuten Öffnen des S4Editors ein weiteres Fenster bekommen mit einem großen leeren Textfeld, dieses zeigt dir das derzeitge Script der Map an bzw. kannst du das Script der geöffneten Map damit modifizieren.\
 \
