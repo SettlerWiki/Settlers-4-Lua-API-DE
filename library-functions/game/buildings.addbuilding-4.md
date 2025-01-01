@@ -2,20 +2,27 @@
 description: 'Neue Funktion: nur mit Settlers United verwendbar!'
 ---
 
-# Game.ShowTextMessage
+# Game.PingPlayer
 
-## `Game.ShowTextMessage(msg[, icon=8[, lifetime_s=120[, x, y]]])`
+## `Game.PingPlayer(x, y, playerID[, arrowDuration=15[, minimapDuration=arrowDuration[, msg[, icon=8[, lifetime_s=120[, x, y]]]]]])`
 
-Zeigt die Nachricht \[msg] im Chat an.
+Erzeugt einen Ping **nur für Spieler \[playerID]** auf der Karte und Minimap und gibt optional eine Textnachricht aus, die standardmäßig den Bildschirm zu den Koordinaten `x, y` springen lässt.
 
-Kurzform: `Game.stm(msg[, icon=8[, lifetime_s=120[, x, y]]])`
+Zusätzlich wird ein Sound abgespielt.
 
-<table><thead><tr><th width="161">icon (optional)</th><th>Symbol links neben der Nachricht im Chat</th></tr></thead><tbody><tr><td>0</td><td>rot</td></tr><tr><td>1</td><td>blau</td></tr><tr><td>2</td><td>grün</td></tr><tr><td>3</td><td>gelb</td></tr><tr><td>4</td><td>violett</td></tr><tr><td>5</td><td>orange</td></tr><tr><td>6</td><td>türkis</td></tr><tr><td>7</td><td>weiß</td></tr><tr><td>8 (Standard)</td><td>Rufzeichen</td></tr></tbody></table>
+`playerID [1, 8]`: siehe [game.localplayer.md](game.localplayer.md "mention"), **Index 0 ist ungültig!**
 
-`lifetime_s` (optional): Zeit in Echtzeit-Sekunden (nicht Spielzeit!), wie lange die Nachricht sichtbar sein soll. Danach verschwindet sie von alleine. \
-`lifetime_s=-1` bewirkt, dass die **Nachricht** (selbst beim Klick darauf) **nicht verschwindet!**
+`arrowDuration` (optional): Zeit in Spiel-Sekunden, wie lange der Pfeil auf der Karte angezeigt werden soll.
 
-`x, y` (optional): Koordinaten, zu denen der Bildschirm springt, wenn auf die Nachricht gedrückt wird.
+`minimapDuration` (optional): Zeit in Spiel-Sekunden, wie lange die blinkende Animation auf der Minimap  angezeigt werden soll.
+
+`[msg, ...]` (optional): siehe [buildings.addbuilding-7.md](buildings.addbuilding-7.md "mention")
+
+## `Game.PingPlayer(x, y, playerID[, msg[, icon=8[, lifetime_s=120[, x, y]]]])`
+
+Gleiche Funktion wie oben, nur mit anderen optionalen Parametern (hier gilt:`arrow- & minimapDuration = 15`).
+
+`[msg, ...]` (optional): siehe [buildings.addbuilding-7.md](buildings.addbuilding-7.md "mention")
 
 #### Rückgabewert
 
@@ -24,9 +31,8 @@ none
 #### Beispiel
 
 ```lua
-Game.ShowTextMessage("Hey there!")
-Game.stm("Hey there!")    // Kurzform (stm = ShowTextMessage)
-Game.ShowTextMessage("Hey there!", 1, 20)    // blaues icon, 20 Sekunden
-Game.ShowTextMessage("Hey there!", 8, 120, 100, 50)    // Bildschirm springt zu (100,50)
-Game.ShowTextMessage("Hey there!", 8, -1, 100, 50)    // Nachricht bleibt für immer bestehen
+Game.PingPlayer(100, 80, 3)    // Ping Spieler 3 an (100, 80) für je 15 Sekunden
+Game.PingPlayer(100, 80, 1, 0)    // ... Spieler 1 ohne Pfeil, nur Animation auf der Minimap
+Game.PingPlayer(100, 80, 2, "click me")    // ... Spieler 2 mit Textausgabe, Bildschirm springt zu den Koordinaten
+Game.PingPlayer(100, 80, 8, 15, 0, "click me")    // ... Spieler 8 nur Pfeil und Nachricht
 ```

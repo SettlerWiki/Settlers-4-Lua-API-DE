@@ -1,15 +1,19 @@
-# Game.ArePlayerAreasConnected
+---
+description: 'Neue Funktion: nur mit Settlers United verwendbar!'
+---
 
-## `Game.ArePlayerAreasConnected(ParteiA, X, Y, ParteiB, X, Y)`
+# Game.AddBeds
 
-Prüft, ob zwei Ecosektoren, die die angegebenen Koordinaten enthalten, miteinander verbunden sind. Eine Verbindung besteht auch dann, wenn die Gebiete durch einen verbündeten Spieler verbunden sind.
+## `Game.AddBeds(playerID, amount)`
+
+Fügt dem angegebenen Spieler \[playerID] eine Anzahl \[amount] an Betten hinzu, die auch ohne Wohnhäuser bestehen bleiben.
 
 #### Rückgabewert
 
-True oder False
+None
 
 #### Beispiel
 
 ```lua
-Game.ArePlayerAreasConnected(1, 260, 279, 2, 98, 353)
+Game.AddBeds(1, 100)
 ```
