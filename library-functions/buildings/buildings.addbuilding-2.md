@@ -4,9 +4,9 @@ description: 'Neue Funktion: nur mit Settlers United verwendbar!'
 
 # Buildings.AddBuildingExSU
 
-## `Buildings.AddBuildingExSU(x, y, Spieler, Gebäude[, Radius=24[,``TürmeAußerhalb=0]])`
+## `Buildings.AddBuildingExSU(x, y, Spieler, Gebäude[, Radius=24[,TürmeAußerhalb=0]])`
 
-Platziert ein Gebäude des angegebenen Gebäude-Typs für den genannten Spieler möglichst nahe an den angegebenen Koordinaten. Dabei wird in einem \[Radius] an Feldern nach einer freien Stelle gesucht, an der die Baustelle platziert werden kann.
+Platziert ein Gebäude des angegebenen Gebäude-Typs für den genannten Spieler möglichst nahe an den angegebenen Koordinaten. Dabei wird in einem \[Radius] an Feldern nach einer freien Stelle gesucht, an der das Gebäude platziert werden kann.
 
 Radius (optional): \[0, 74]
 

@@ -6,7 +6,7 @@ description: 'Neue Funktion: nur mit Settlers United verwendbar!'
 
 ## `Buildings.AddBuildingSU(x, y, Spieler, Gebäude)`
 
-Platziert ein Gebäude des angegebenen Gebäude-Typs für den genannten Spieler möglichst nahe an den angegebenen Koordinaten. Dabei wird in einem Radius von 4 Feldern nach einer freien Stelle gesucht, an der die Baustelle platziert werden kann.
+Platziert ein Gebäude des angegebenen Gebäude-Typs für den genannten Spieler möglichst nahe an den angegebenen Koordinaten. Dabei wird in einem Radius von 4 Feldern nach einer freien Stelle gesucht, an der das Gebäude platziert werden kann.
 
 ⇒ Radius: siehe [buildings.addbuilding-2.md](buildings.addbuilding-2.md "mention")
 
