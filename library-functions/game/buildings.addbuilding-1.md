@@ -10,7 +10,7 @@ Gibt die Spielsprache zurück.
 
 #### Rückgabewert
 
-Spielsprache \[[ai-1.md](../../api-enums/ai-1.md "mention")]
+Spielsprache \[[ai-5.md](../../su-api-enums/ai-5.md "mention")]
 
 #### Beispiel
 

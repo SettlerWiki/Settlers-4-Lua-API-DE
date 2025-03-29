@@ -198,9 +198,21 @@
 * [Events](api-enums/events.md)
 * [Game](api-enums/game.md)
 * [Goods](api-enums/goods.md)
-* [Languages](api-enums/ai-1.md)
 * [Magic](api-enums/magic.md)
 * [Menu](api-enums/menu.md)
 * [Settlers](api-enums/settlers.md)
 * [Sounds](api-enums/sounds.md)
 * [Vehicles](api-enums/vehicles.md)
+
+## SU API Enums
+
+* [SU.Animals](su-api-enums/ai.md)
+* [SU.BaseTypes](su-api-enums/ai-1.md)
+* [SU.Classes](su-api-enums/ai-2.md)
+* [SU.EntityTypes](su-api-enums/ai-3.md)
+* [SU.GUIElements](su-api-enums/ai-4.md)
+* [SU.Languages](su-api-enums/ai-5.md)
+* [SU.Objects](su-api-enums/ai-6.md)
+* [SU.Resources](su-api-enums/ai-7.md)
+* [SU.RoleClasses](su-api-enums/ai-8.md)
+* [SU.Trees](su-api-enums/ai-9.md)
