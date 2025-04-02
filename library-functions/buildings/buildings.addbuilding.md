@@ -7,7 +7,7 @@ description: VERALTET und FEHLERHAFT
 ## ~~`Buildings.AddBuilding(x, y, Spieler, Gebäude)`~~
 
 **Diese Funktion sollte NICHT mehr verwendet werden (siehe unten).**\
-**Stattdessen ⇒** [buildings.addbuilding-1.md](buildings.addbuilding-1.md "mention")
+**Stattdessen ⇒** [buildings.addbuilding.md](../../su-library-functions/buildings/buildings.addbuilding.md "mention")
 
 Platziert ein Gebäude für den genannten Spieler an den angegebenen Koordinaten.
 
@@ -19,10 +19,10 @@ Sie funktioniert noch wie bisher, um Rückwärtskompatibilität zu gewährleiste
 
 #### Rückgabewert
 
-Eindeutige Gebäude-ID
+Eindeutige Gebäude-ID oder 0 wenn nicht möglich
 
 #### Beispiel
 
 ```lua
-Buildings.AddBuilding(100,100, 1, Buildings.GUARDTOWERSMALL)
+local buildingID = Buildings.AddBuilding(100, 100, 1, Buildings.GUARDTOWERSMALL)
 ```

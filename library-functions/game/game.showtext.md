@@ -1,8 +1,10 @@
 # Game.ShowText
 
-## `Game.ShowText(Textbaustein, x, y)`
+## ~~Game.ShowText(textID\[, x, y])~~
 
-Zeigt einen Text im Nachrichtenfenster an. Für Mapper weitgehend nutzlos, da die Texte in einer unzugänglichen Datei hinterlegt sind. Wenn Koordinaten hinterlegt sind, springt das Spiel beim Klick auf die Nachricht zu ihnen.
+**Stattdessen** ⇒ [buildings.addbuilding-7.md](../../su-library-functions/game/buildings.addbuilding-7.md "mention")
+
+Zeigt einen Text im Nachrichtenfenster an. **Für Mapper weitgehend nutzlos**, da die Texte in einer unzugänglichen Datei hinterlegt sind. Wenn Koordinaten hinterlegt sind, springt das Spiel beim Klick auf die Nachricht zu ihnen.
 
 #### Rückgabewert
 

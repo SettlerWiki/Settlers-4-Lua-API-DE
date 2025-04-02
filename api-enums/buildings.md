@@ -1,5 +1,104 @@
 # Buildings
 
+Eine **gefilterte Liste aller sinnvoll verwendbaren Gebäude-Typen**.\
+Die alte Liste mit sämtlichen Variablen ist unten angehängt.
+
+```
+Buildings.NO_BUILDING
+  
+// building-states
+Buildings.UNDERCONSTRUCTION
+Buildings.READY
+Buildings.ALL
+
+Buildings.AGAVEFARMERHUT
+Buildings.AMMOMAKERHUT
+Buildings.ANIMALRANCH
+Buildings.BAKERY
+Buildings.BARRACKS
+Buildings.BEEKEEPERHUT
+Buildings.BIGTEMPLE
+Buildings.CASTLE
+Buildings.CHARCOALMAKER
+Buildings.COALMINE
+Buildings.DARKTEMPLE
+Buildings.DONKEYRANCH
+Buildings.EYECATCHER01
+Buildings.EYECATCHER02
+Buildings.EYECATCHER03
+Buildings.EYECATCHER04
+Buildings.EYECATCHER05
+Buildings.EYECATCHER06
+Buildings.EYECATCHER07
+Buildings.EYECATCHER08
+Buildings.EYECATCHER09
+Buildings.EYECATCHER10
+Buildings.EYECATCHER11
+Buildings.EYECATCHER12
+Buildings.FISHERHUT
+Buildings.FORESTERHUT
+Buildings.FORTRESS
+Buildings.GOLDMINE
+Buildings.GRAINFARM
+Buildings.GUARDTOWERBIG
+Buildings.GUARDTOWERSMALL
+Buildings.GUNPOWDERMAKERHUT
+Buildings.HEALERHUT
+Buildings.HUNTERHUT
+Buildings.IRONMINE
+Buildings.LANDSCAPEMAKERHUT
+Buildings.LOOKOUTTOWER
+Buildings.MANACOPTERHALL
+Buildings.MARKETPLACE
+Buildings.MEADMAKERHUT
+Buildings.MILL
+Buildings.MUSHROOMFARM
+Buildings.PORT
+Buildings.PORTA    // left-down
+Buildings.PORTB    // left
+Buildings.PORTC    // left-up
+Buildings.PORTD    // right-up
+Buildings.PORTE    // right
+Buildings.PORTF    // right-down
+Buildings.PORTG    // up
+Buildings.PORTH    // down
+Buildings.RESIDENCEBIG
+Buildings.RESIDENCEMEDIUM
+Buildings.RESIDENCESMALL
+Buildings.SAWMILL
+Buildings.SHIPYARD
+Buildings.SHIPYARDA    // left-down
+Buildings.SHIPYARDB    // left
+Buildings.SHIPYARDC    // left-up
+Buildings.SHIPYARDD    // right-up
+Buildings.SHIPYARDE    // right
+Buildings.SHIPYARDF    // right-down
+Buildings.SHIPYARDG    // up
+Buildings.SHIPYARDH    // down
+Buildings.SLAUGHTERHOUSE
+Buildings.SMALLTEMPLE
+Buildings.SMELTGOLD
+Buildings.SMELTIRON
+Buildings.STONECUTTERHUT
+Buildings.STONEMINE
+Buildings.STORAGEAREA
+Buildings.SULFURMINE
+Buildings.SUNFLOWERFARMERHUT
+Buildings.SUNFLOWEROILMAKERHUT
+Buildings.TEQUILAMAKERHUT
+Buildings.TOOLSMITH
+Buildings.TRAININGCENTER
+Buildings.VEHICLEHALL
+Buildings.VINYARD
+Buildings.WATERWORKHUT
+Buildings.WEAPONSMITH
+Buildings.WOODCUTTERHUT
+```
+
+<details>
+
+<summary>Alle Werte / alte Liste</summary>
+
 ```
 Buildings.AGAVEFARMERHUT
 Buildings.AGAVEFARMERHUT_BUILD
@@ -384,3 +483,7 @@ Buildings.WOODCUTTERHUT
 Buildings.WOODCUTTERHUT_BUILD
 
 ```
+
+
+
+</details>

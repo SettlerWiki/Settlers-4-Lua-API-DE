@@ -1,5 +1,5 @@
 ---
-description: 'Neu: nur mit Settlers United (ab SU 0.2.0) verwendbar!'
+description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 ---
 
 # SU.Classes

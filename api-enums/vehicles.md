@@ -1,5 +1,23 @@
 # Vehicles
 
+Eine **gefilterte Liste aller sinnvoll verwendbaren Fahrzeug-/Schiffs-Typen**.\
+Die alte Liste mit sämtlichen Variablen ist unten angehängt.
+
+```
+Vehicles.NO_VEHICLE
+
+Vehicles.CART
+Vehicles.FERRY
+Vehicles.FOUNDATION_CART
+Vehicles.TRANSPORTSHIP
+Vehicles.WARMACHINE
+Vehicles.WARSHIP
+```
+
+<details>
+
+<summary>Alle Variablen / alte Liste</summary>
+
 ```
 Vehicles.ALL
 Vehicles.BIRTH
@@ -64,5 +82,6 @@ Vehicles.WARSHIP_TURNC
 Vehicles.WARSHIP_TURND
 Vehicles.WARSHIP_TURNE
 Vehicles.WARSHIP_TURNF
-
 ```
+
+</details>
