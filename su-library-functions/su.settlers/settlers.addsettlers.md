@@ -6,13 +6,13 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 ## SU.Settlers.AddSettlersWithBeds(x, y, playerID, settlerType, amount)
 
-Erzeugt Siedler an den angegebenen Koordinaten und fügt dem Spieler zusätzlich entsprechende Betten hinzu, damit diese neuen Siedler nicht zu streikenden führen können.
+Erzeugt Siedler an den angegebenen Koordinaten und fügt dem Spieler zusätzlich entsprechende Betten hinzu, damit diese neuen Siedler nicht zu Streikenden führen können.
 
 #### Parameter
 
 * `x, y`: Koordinaten
 * `playerID [1-8]`: Spieler-ID, **Index 0 ist ungültig!**
-* `settlerType`: [Broken link](broken-reference "mention") (bzw. [settlers.md](../../api-enums/settlers.md "mention"))
+* `settlerType`: [settlers.md](../../api-enums/settlers.md "mention")
 * `amount`: Anzahl der hinzuzufügenden Siedler (inkl. Betten)
 
 #### Beispiel

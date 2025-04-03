@@ -12,6 +12,12 @@ Platziert ein Gebäude des angegebenen Gebäude-Typs für den genannten Spieler 
 
 Diese Funktion behebt das Fehlverhalten der originalen S4-Funktion `Buildings.AddBuilding(...)`, die dieses Verhalten eigentlich haben sollte.
 
+#### Notiz
+
+* diese Funktion prüft z.Z. **nicht**, ob Siedler im Weg stehen. **D.h., wird ein Gebäude mit dieser Funktion an einer Stelle platziert, an der Siedler stehen, stürzt das Spiel ab**, da die Siedler im Gebäude gefangen werden und feststecke&#x6E;**!** Eine Lösung ist in Arbeit...\
+  ⇒ D.h. **diese Funktion** sollte **nur ganz zu Beginn des Spieles verwendet** werden, wenn noch keine/kaum Siedler in der Map verteilt sind!\
+  ⇒ **Der sicherste Weg** ist es, statt Gebäuden **Baustellen zu platzieren**. Diese können nämlich auch über Siedler gesetzt werden kann (siehe [buildings.addbuilding-2.md](buildings.addbuilding-2.md "mention")).
+
 #### Parameter
 
 * `x, y`: Koordinaten

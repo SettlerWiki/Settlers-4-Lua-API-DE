@@ -10,7 +10,7 @@ Setzt für das durch die ID angegebene Gebäude den Arbeitsbereich.
 
 #### Notiz
 
-* x, y können hier beliebig (weit weg) sein, d.h. auf Wasser und auch außerhalb des eigenen Gebiets, wodurch das Gebäude uU nicht mehr arbeitet!
+* x, y können hier beliebig (weit weg) sein, d.h. auf Wasser und auch außerhalb des eigenen Gebiets, wodurch das Gebäude u.U. nicht mehr arbeitet!
 
 #### Parameter
 
