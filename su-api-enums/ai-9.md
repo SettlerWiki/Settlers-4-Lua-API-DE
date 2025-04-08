@@ -5,6 +5,13 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 # SU.Trees
 
 ```
+// you can use these values to iterate through all tree types
+//  check for SU existence! Version 0.2.0
+SU.Trees.MIN_TREE_TYPE    // first tree type (inclusive)
+SU.Trees.MAX_TREE_TYPE    // last tree type (inclusive)
+```
+
+```
 SU.Trees.NONE
 
 SU.Trees.ASH

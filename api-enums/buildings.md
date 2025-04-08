@@ -1,32 +1,30 @@
 # Buildings
 
-Eine **gefilterte Liste aller sinnvoll verwendbaren Gebäude-Typen**.\
-Die alte Liste mit sämtlichen Variablen ist unten angehängt.
-
-```lua
-function crushAllBuildings(playerID)
-    local buildingType = SU.Buildings.MIN_BUILDING_TYPE
-    while buildingType <= SU.Buildings.MAX_BUILDING_TYPE do
-        Buildings.CrushBuilding(buildingType)
-        buildingType = buildingType + 1
-    end
-end
-```
-
-
+#### Building-States
 
 ```
-Buildings.NO_BUILDING
-  
 // building-states
 Buildings.UNDERCONSTRUCTION
 Buildings.READY
 Buildings.ALL
+```
 
+#### SU Library
+
+```
 // you can use these values to iterate through all building types
-//  check for SU existence!
-SU.Buildings.MIN_BUILDING_TYPE  // first building 
-SU.Buildings.MAX_BUILDING_TYPE  // 
+//  check for SU existence! Version 0.2.0
+SU.Buildings.MIN_BUILDING_TYPE  // first building type (inclusive)
+SU.Buildings.MAX_BUILDING_TYPE  // last building type (inclusive)
+```
+
+#### Buildings
+
+Eine **gefilterte Liste aller sinnvoll verwendbaren Gebäude-Typen**.\
+Die alte Liste mit sämtlichen Variablen ist unten angehängt.
+
+```
+Buildings.NO_BUILDING
 
 Buildings.AGAVEFARMERHUT
 Buildings.AMMOMAKERHUT

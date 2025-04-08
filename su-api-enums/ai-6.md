@@ -5,6 +5,13 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 # SU.Objects
 
 ```
+// you can use these values to iterate through all object types
+//  check for SU existence! Version 0.2.0
+SU.Objects.MIN_OBJECT_TYPE    // first object type (inclusive)
+SU.Objects.MAX_OBJECT_TYPE    // last object type (inclusive)
+```
+
+```
 SU.Objects.NONE
 
 SU.Objects.AGAVE

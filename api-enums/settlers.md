@@ -1,5 +1,16 @@
 # Settlers
 
+#### SU Library
+
+```
+// you can use these values to iterate through all settler types
+//  check for SU existence! Version 0.2.0
+SU.Settlers.MIN_SETTLER_TYPE  // first settler type (inclusive)
+SU.Settlers.MAX_SETTLER_TYPE  // last settler type (inclusive)
+```
+
+#### Settlers
+
 Eine **gefilterte Liste aller sinnvoll verwendbaren Siedler-Typen**.\
 Die alte Liste mit sämtlichen Variablen ist unten angehängt.
 

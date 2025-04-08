@@ -1,5 +1,16 @@
 # Vehicles
 
+#### SU Library
+
+```
+// you can use these values to iterate through all vehicle types
+//  check for SU existence! Version 0.2.0
+SU.Vehicles.MIN_VEHICLE_TYPE  // first vehicle type (inclusive)
+SU.Vehicles.MAX_VEHICLE_TYPE  // last vehicle type (inclusive)
+```
+
+#### Vehicles
+
 Eine **gefilterte Liste aller sinnvoll verwendbaren Fahrzeug-/Schiffs-Typen**.\
 Die alte Liste mit sämtlichen Variablen ist unten angehängt.
 

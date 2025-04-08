@@ -4,7 +4,7 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 # SU.Buildings.UnGarrisonWarriors
 
-## SU.Buildings.UnGarrisonWarriors(buildingID, index, bowman)
+## SU.Buildings.UnGarrisonWarriors(buildingID\[, index=-1, bowman=0])
 
 Gibt den entsprechenden Soldaten im durch die ID angegebenen Gebäude den Auftrag, jenes zu verlassen.
 
@@ -17,8 +17,8 @@ Gibt den entsprechenden Soldaten im durch die ID angegebenen Gebäude den Auftra
 #### Parameter
 
 * `buildingID`: ID des Gebäudes
-* `index`: Index des Soldaten, der das Gebäude verlassen soll \[-1, 0, ...] (**Indizes starten bei 0**). Bei -1 verlassen alle Soldaten das Gebäude (bis auf der erste Schwertkämpfer), der Parameter "bowman" wird dabei ignoriert.
-* `bowman`: \[0, 1] ob die Bogenschützen oder Schwertkämpfer das Gebäude verlassen sollen
+* `index [-1, 0-5]` (optional): Index des Soldaten, der das Gebäude verlassen soll \[-1, 0, ...] (**Indizes starten bei 0**). Bei -1 verlassen alle Soldaten das Gebäude (bis auf der erste Schwertkämpfer), der Parameter `bowman` wird dabei ignoriert.
+* `bowman [0-1]` (optional): ob (`0`) Schwertkämpfer oder (`1`) Bogenschützen das Gebäude verlassen sollen
 
 #### Rückgabewert
 
@@ -28,5 +28,5 @@ Gibt den entsprechenden Soldaten im durch die ID angegebenen Gebäude den Auftra
 #### Beispiel
 
 ```lua
-local success = SU.Buildings.UnGarrisonWarriors(buildingID, -1, 0)    // alle Soldaten verlassen das Gebäude
+local success = SU.Buildings.UnGarrisonWarriors(buildingID)    // alle Soldaten verlassen das Gebäude
 ```

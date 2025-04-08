@@ -1,6 +1,19 @@
 # Goods
 
+#### SU Library
+
 ```
+// you can use these values to iterate through all good types
+//  check for SU existence! Version 0.2.0
+SU.Goods.MIN_GOOD_TYPE  // first good type (inclusive)
+SU.Goods.MAX_GOOD_TYPE  // last good type (inclusive)
+```
+
+#### Goods
+
+```
+Goods.NO_GOOD
+
 Goods.AGAVE
 Goods.AMMO
 Goods.ARMOR
@@ -28,7 +41,6 @@ Goods.IRONORE
 Goods.LOG
 Goods.MEAD
 Goods.MEAT
-Goods.NO_GOOD
 Goods.PICKAXE
 Goods.PIG
 Goods.PILE_ANYWHERE

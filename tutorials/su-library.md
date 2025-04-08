@@ -32,7 +32,7 @@ Das folgende Skript kann verwendet werden, um auf die entsprechende benötigte V
 function new_game()
   -- don't add anything in this function above these lines
   if SU then
-    requiredVersion = "0.2.0" -- change this to the version your map-script requires
+    local requiredVersion = "0.2.0" -- change this to the version your map-script requires
     if SU.VersionOK(requiredVersion) == 0 then
       dbg.stm("SU Library Version requirement not met! The Map-Script needs at least Version "..requiredVersion..", you have Version "..SU.VERSION.."!")
       dbg.stm("Update (and restart The Settlers IV via) Settlers United to get the latest Version installed.")

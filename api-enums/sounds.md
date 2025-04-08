@@ -1,6 +1,19 @@
 # Sounds
 
+#### SU Library
+
 ```
+// you can use these values to iterate through all sound types
+//  check for SU existence! Version 0.2.0
+SU.Sounds.MIN_SOUND_TYPE  // first sound type (inclusive)
+SU.Sounds.MAX_SOUND_TYPE  // last sound type (inclusive)
+```
+
+#### Sounds
+
+```
+Sounds.NO_SOUND
+
 Sounds.AMB_ATTACKBIGBUILDING
 Sounds.AMB_ATTACKSMALLBUILDING
 Sounds.AMB_BEES
@@ -87,7 +100,6 @@ Sounds.MAGIC_TELEPORT
 Sounds.MAGIC_THORSHAMMER
 Sounds.MISC_BELL
 Sounds.MISC_HEAL
-Sounds.NO_SOUND
 Sounds.WORK_AXE
 Sounds.WORK_FARMERHARVEST
 Sounds.WORK_FARMERSEED

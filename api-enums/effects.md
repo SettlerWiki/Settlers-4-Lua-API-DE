@@ -1,8 +1,19 @@
 # Effects
 
-
+#### SU Library
 
 ```
+// you can use these values to iterate through all effect types
+//  check for SU existence! Version 0.2.0
+SU.Effects.MIN_EFFECT_TYPE  // first effect type (inclusive)
+SU.Effects.MAX_EFFECT_TYPE  // last effect type (inclusive)
+```
+
+#### Effects
+
+```
+Effects.NO_EFFECT
+
 Effects.ANIM_SMOKE
 Effects.BIRD
 Effects.BOWMAN_STONE
@@ -51,7 +62,6 @@ Effects.MMAGIC_STONECURSE
 Effects.MMAGIC_TELEPORT
 Effects.MUSHROOMFARM_BUILD
 Effects.MUSHROOMFARM_CRASH
-Effects.NO_EFFECT
 Effects.RMAGIC_BARBARIAN
 Effects.RMAGIC_CHANGEGOOD
 Effects.RMAGIC_DEFENSESHIELD
