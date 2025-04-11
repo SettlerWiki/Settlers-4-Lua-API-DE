@@ -11,5 +11,5 @@ Einzigartige ID des gefundenen Gebäudes.
 #### Beispiel
 
 ```lua
-local buildingID = Buildings.GetFirstBuilding(4, Buildings.GUARDTOWERSMALL)
+local buildingID = Buildings.GetFirstBuilding(1, Buildings.GUARDTOWERSMALL)
 ```
