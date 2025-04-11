@@ -1,15 +1,20 @@
-# SU.Game.SetBeds
+---
+description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
+---
 
-## SU.checkVersion(version)
+# SU.Game.ClearSelection
 
-Setzt vom angegebenen Spieler die Anzahl an Betten, **die auch ohne Wohnhäuser bestehen bleiben. Betten von Wohnhäusern bleiben weiterhin zusätzlich bestehen.**
+## SU.Game.ClearSelection()
 
-#### Parameter
+Löscht die aktuelle Auswahl des lokalen Spielers.
 
-* `version`: Version, die mindestens vorhanden sein muss
+#### Rückgabewert
+
+* 1: erfolgreich
+* 0: sonst / Fehler
 
 #### Beispiel
 
 ```lua
-SU.Game.SetBeds(1, 100)    // Spieler 1 hat nun 100 Betten (exkl. Wohnhäusern)
+local success = SU.Game.ClearSelection()
 ```

@@ -2,34 +2,27 @@
 description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 ---
 
-# SU.Game.PingPlayer
+# SU.Game.IsCurrentlyOnScreen
 
-## SU.Game.Ping(x, y, playerID\[, arrowDuration=15\[, minimapDuration=arrowDuration\[, msg\[, icon=8\[, lifetime\_s=120\[, x2, y2]]]]]])
+## SU.Game.IsCurrentlyOnScreen(guiElement)
 
-Erzeugt einen Ping **nur für den angegebenen Spieler** auf der Karte und Minimap und gibt optional eine Textnachricht aus, die standardmäßig den Bildschirm zu den Koordinaten `x, y` springen lässt.
+Überprüft, ob das angegebene GUI-Element aktuell am Bildschirm des lokalen Spielers ist.
 
-Zusätzlich wird ein Sound abgespielt.
+#### Notiz
+
+* da das Lua-Skript nur direkt im Spiel und nicht in den Menüs davor läuft, machen nur alle "SU.GUIElements.**MENU**\_XXX" Variablen Sinn.
 
 #### Parameter
 
-* `playerID [1-8]`: Spieler-ID, **Index 0 ist ungültig!**
-* `arrowDuration` (optional): Zeit in Spiel-Sekunden, wie lange der Pfeil auf der Karte angezeigt werden soll.
-* `minimapDuration` (optional): Zeit in Spiel-Sekunden, wie lange die blinkende Animation auf der Minimap  angezeigt werden soll.
-* `[msg, ...]` (optional): siehe [buildings.addbuilding-7.md](buildings.addbuilding-7.md "mention")
+* `guiElement`: [ai-4.md](../../su-api-enums/ai-4.md "mention")
 
+#### Rückgabewert
 
-
-## SU.Game.Ping(x, y, playerID\[, msg\[, icon=8\[, lifetime\_s=120\[, x2, y2]]]])
-
-Gleiche Funktion wie oben, nur mit anderen optionalen Parametern (hier gilt: `arrowDuration=minimapDuration=15`).
-
-
+* 1: `guiElement` ist am Bildschirm
+* 0: sonst / Fehler
 
 #### Beispiel
 
 ```lua
-SU.Game.PingPlayer(100, 80, 3)    // Ping Spieler 3 an (100, 80) für je 15 Sekunden
-SU.Game.PingPlayer(100, 80, 1, 0)    // ... Spieler 1 ohne Pfeil, nur Animation auf der Minimap
-SU.Game.PingPlayer(100, 80, 2, "click me")    // ... Spieler 2 mit Textausgabe, Bildschirm springt zu den Koordinaten
-SU.Game.PingPlayer(100, 80, 8, 15, 0, "click me")    // ... Spieler 8 nur Pfeil und Nachricht
+local isOnScreen = SU.Game.IsCurrentlyOnScreen(SU.GUIElements.MENU_BUILDINGS_FOOD)
 ```

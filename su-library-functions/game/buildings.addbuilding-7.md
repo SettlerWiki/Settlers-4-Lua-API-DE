@@ -2,31 +2,34 @@
 description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 ---
 
-# SU.Game.ShowTextMessage
+# SU.Game.PingTeam
 
-## SU.Game.ShowTextMessage(msg\[, icon=8\[, lifetime\_s=120\[, x, y]]]
+## SU.Game.Ping(x, y, teamID\[, arrowDuration=15\[, minimapDuration=arrowDuration\[, msg\[, icon=8\[, lifetime\_s=120\[, x2, y2]]]]]])
 
-Zeigt die Nachricht im Chat an.
+Erzeugt einen Ping **nur für das angegebene Team** auf der Karte und Minimap und gibt optional eine Textnachricht aus, die standardmäßig den Bildschirm zu den Koordinaten `x, y` springen lässt.
 
-**Kurzform** siehe[buildings.addbuilding-8.md](buildings.addbuilding-8.md "mention").
+Zusätzlich wird ein Sound abgespielt.
 
 #### Parameter
 
-* `icon`: bestimmt das Symbol links neben der Nachricht im Chat (siehe Tabelle)
+* `teamID [1-8]`: Team-ID, **Index 0 ist ungültig!**
+* `arrowDuration` (optional): Zeit in Spiel-Sekunden, wie lange der Pfeil auf der Karte angezeigt werden soll.
+* `minimapDuration` (optional): Zeit in Spiel-Sekunden, wie lange die blinkende Animation auf der Minimap  angezeigt werden soll.
+* `[msg, ...]` (optional): siehe [buildings.addbuilding-9.md](buildings.addbuilding-9.md "mention")
 
-<table><thead><tr><th width="161">icon (optional)</th><th>Symbol links neben der Nachricht im Chat</th></tr></thead><tbody><tr><td>0</td><td>rot</td></tr><tr><td>1</td><td>blau</td></tr><tr><td>2</td><td>grün</td></tr><tr><td>3</td><td>gelb</td></tr><tr><td>4</td><td>violett</td></tr><tr><td>5</td><td>orange</td></tr><tr><td>6</td><td>türkis</td></tr><tr><td>7</td><td>weiß</td></tr><tr><td>8 (Standard)</td><td>Rufzeichen</td></tr></tbody></table>
 
-* `lifetime_s` (optional): Zeit in Echtzeit-Sekunden (nicht Spielzeit!), wie lange die Nachricht sichtbar sein soll. Danach verschwindet sie von alleine. \
-  `lifetime_s=-1` bewirkt, dass die **Nachricht** (selbst beim Klick darauf) **nicht verschwindet!**\
-  &#xNAN;**`lifetime_s=-2`** ist die am längsten bestehende aber wegklickbare Nachricht.
-* `x, y` (optional): Koordinaten, zu denen der Bildschirm springt, wenn auf die Nachricht gedrückt wird.
+
+## SU.Game.Ping(x, y, teamID\[, msg\[, icon=8\[, lifetime\_s=120\[, x, y]]]])
+
+Gleiche Funktion wie oben, nur mit anderen optionalen Parametern (hier gilt: `arrowDuration=minimapDuration=15`).
+
+
 
 #### Beispiel
 
 ```lua
-SU.Game.ShowTextMessage("Hey there!")
-SU.Game.stm("Hey there!")    // Kurzform (stm = ShowTextMessage)
-SU.Game.ShowTextMessage("Hey there!", 1, 20)    // blaues icon, 20 Sekunden
-SU.Game.ShowTextMessage("Hey there!", 8, 120, 100, 50)    // Bildschirm springt zu (100,50)
-SU.Game.ShowTextMessage("Hey there!", 8, -1, 100, 50)    // Nachricht bleibt für immer bestehen
+SU.Game.PingTeam(100, 80, 3)    // Ping Team 3 an (100, 80) für je 15 Sekunden
+SU.Game.PingTeam(100, 80, 1, 0)    // ... Team 1 ohne Pfeil, nur Animation auf der Minimap
+SU.Game.PingTeam(100, 80, 2, "click me")    // ... Team 2 mit Textausgabe, Bildschirm springt zu den Koordinaten
+SU.Game.PingTeam(100, 80, 8, 15, 0, "click me")    // ... Team 8 nur Pfeil und Nachricht
 ```
