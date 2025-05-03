@@ -10,6 +10,7 @@ Gibt dem durch die ID angegebenen Gebäude den Auftrag, eine spezielle Anzahl an
 
 #### Notiz
 
+* die KI stellt die Produktion der Waffenschmiede alle paar Sekunden um, somit ist diese Funktion **bei aktivierten KIs** momentan ziemlich **sinnlos**!
 * die Summe der Waffen muss 100% ergeben
 * die KI setzt ihre Waffenproduktion kontinuierlich selbst und überschreibt damit die hiermit gesetzten Werte immer wieder... Eine Funktion um dieses Verhalten deaktivieren zu können ist in Planung.
 * **bei jedem Aufruf dieser Funktion werden interne Werte zurückgesetzt.** Dadurch wird als erstes Produkt immer die erste Waffe hergestellt, die nicht 0% zugewiesen hat. D.h., **wird diese Funktion kontinuierlich** (z.B. alle 5 Ticks) mit z.B. 1% Schwerter **aufgerufen**, werden **deutlich mehr als 1% Schwerter hergestellt**, da bei jedem Aufruf wieder 1 Schwert hergestellt wird! Eine Änderung der internen von S4 verwendeten Statistik ist in Planung...

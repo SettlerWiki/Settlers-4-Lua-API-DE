@@ -8,6 +8,10 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 Gibt dem durch die ID angegebenen Gebäude den Auftrag, in oder aus dem Prozente-Modus zu wechseln.
 
+#### Notiz
+
+* die KI stellt die Produktion der Waffenschmiede alle paar Sekunden um, somit ist diese Funktion **bei aktivierten KIs** momentan ziemlich **sinnlos**!
+
 #### Parameter
 
 * `buildingID`: ID des Gebäudes
