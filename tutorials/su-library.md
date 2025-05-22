@@ -20,7 +20,7 @@ Wünsche und Vorschläge für neue Funktionalitäten können gerne über Discord
 
 Neue Funktionen werden immer wieder zur SU Library hinzugefügt. Damit ein Skript, das auf Funktionen einer neueren Version basiert, als der Spieler lokal zur Verfügung hat, nicht abstürzt, sollte vorher auf die höchste Version der SU Library geprüft werden, die benötigt wird.
 
-Beispiel: Wird die Funktion [game.areplayerareasconnected.md](../su-library-functions/game/game.areplayerareasconnected.md "mention") verwendet, steht oben auf der Seite der Funktion "`SU Library: erst ab Version 0.2.0 verfügbar!`", d.h. um diese Funktion fehlerfrei verwenden zu können, muss beim Spieler mindestens die `Version 0.2.0` vorhanden sein!
+**Beispiel**: Wird die Funktion [game.areplayerareasconnected.md](../su-library-functions/game/game.areplayerareasconnected.md "mention") verwendet, steht oben auf der Seite der Funktion "`SU Library: erst ab Version 0.2.0 verfügbar!`", d.h. um diese Funktion fehlerfrei verwenden zu können, muss beim Spieler mindestens die `Version 0.2.0` vorhanden sein!
 
 Der Einfachheit halber kann auch direkt auf die **neueste Version** geprüft werden, die zum Zeitpunkt der Erstellung des Skripts vorhanden war, die wird immer **auf dieser Seite ganz oben** sichtbar sein.
 
@@ -32,7 +32,7 @@ Das folgende Skript kann verwendet werden, um auf die entsprechende benötigte V
 function new_game()
   -- don't add anything in this function above these lines
   if SU then
-    local requiredVersion = "0.2.0" -- change this to the version your map-script requires
+    local requiredVersion = "0.3.0" -- TODO change this to the version your map-script requires
     if SU.VersionOK(requiredVersion) == 0 then
       dbg.stm("SU Library Version requirement not met! The Map-Script needs at least Version "..requiredVersion..", you have Version "..SU.VERSION.."!")
       dbg.stm("Update (and restart The Settlers IV via) Settlers United to get the latest Version installed.")

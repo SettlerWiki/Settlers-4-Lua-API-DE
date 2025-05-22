@@ -247,8 +247,8 @@
   * [SU.Map.IsOccupied](su-library-functions/map/settlers.addsettlers-10.md)
   * [SU.Map.SetResource](su-library-functions/map/settlers.addsettlers-11.md)
 * [SU.Settlers](su-library-functions/su.settlers/README.md)
-  * [SU.Settlers.AddSettlersIfNeeded](su-library-functions/su.settlers/settlers.addsettlers.md)
-  * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/settlers.addsettlers-1.md)
+  * [SU.Settlers.AddSettlersIfNeeded](<su-library-functions/su.settlers/settlers.addsettlers (1).md>)
+  * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/settlers.addsettlers.md)
 
 ## API Enums
 
