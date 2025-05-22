@@ -31,5 +31,5 @@ Diese Funktion behebt das Fehlverhalten der originalen S4-Funktion `Buildings.Ad
 
 #### Beispiel
 
-<pre class="language-lua"><code class="lang-lua"><strong>local buildingID = SU.Buildings.AddBuildingSU(100, 100, 1, Buildings.GUARDTOWERSMALL)
+<pre class="language-lua"><code class="lang-lua"><strong>local buildingID = SU.Buildings.AddBuilding(100, 100, 1, Buildings.GUARDTOWERSMALL)
 </strong></code></pre>

@@ -32,6 +32,6 @@ Diese Funktion behebt das Fehlverhalten der originalen S4-Funktion `Buildings.Ad
 #### Beispiel
 
 ```lua
-local buildingID1 = SU.Buildings.AddBuildingExSU(100,100, 1, Buildings.GUARDTOWERSMALL)    // Radius = 24
-local buildingID2 = SU.Buildings.AddBuildingExSU(100,100, 1, Buildings.GUARDTOWERSMALL, 10)    // Radius = 10
+local buildingID1 = SU.Buildings.AddBuildingEx(100,100, 1, Buildings.GUARDTOWERSMALL)    // Radius = 24
+local buildingID2 = SU.Buildings.AddBuildingEx(100,100, 1, Buildings.GUARDTOWERSMALL, 10)    // Radius = 10
 ```

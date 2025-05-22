@@ -231,6 +231,8 @@
   * [SU.Game.SetMaxSelection](su-library-functions/game/game.areplayerareasconnected-3.md)
   * [SU.Game.ShowTextMessage](su-library-functions/game/buildings.addbuilding-9.md)
   * [SU.Game.stm](su-library-functions/game/buildings.addbuilding-10.md)
+* [SU.Goods](su-library-functions/su.goods/README.md)
+  * [SU.Goods.AddPileEx](su-library-functions/su.goods/settlers.addsettlers.md)
 * [SU.Map](su-library-functions/map.md)
   * [SU.Map.GetEcoSector](su-library-functions/map/settlers.addsettlers.md)
   * [SU.Map.GetFogOfWar](su-library-functions/map/settlers.addsettlers-1.md)
@@ -245,7 +247,8 @@
   * [SU.Map.IsOccupied](su-library-functions/map/settlers.addsettlers-10.md)
   * [SU.Map.SetResource](su-library-functions/map/settlers.addsettlers-11.md)
 * [SU.Settlers](su-library-functions/su.settlers/README.md)
-  * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/settlers.addsettlers.md)
+  * [SU.Settlers.AddSettlersIfNeeded](su-library-functions/su.settlers/settlers.addsettlers.md)
+  * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/settlers.addsettlers-1.md)
 
 ## API Enums
 

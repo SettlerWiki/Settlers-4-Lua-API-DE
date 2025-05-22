@@ -27,6 +27,7 @@ Die alte Liste mit sämtlichen Variablen ist unten angehängt.
 Buildings.NO_BUILDING
 
 Buildings.AGAVEFARMERHUT
+Buildings.ALL
 Buildings.AMMOMAKERHUT
 Buildings.ANIMALRANCH
 Buildings.BAKERY

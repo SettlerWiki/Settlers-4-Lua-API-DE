@@ -1,12 +1,12 @@
 ---
-description: 'Aktuellste Version: 0.2.0'
+description: 'Aktuellste Version: 0.3.0'
 ---
 
 # SU Library
 
 Mit dieser SU Library, die direkt in Settlers United integriert ist, werden fortlaufend neue Lua-Funktionen  ( [Broken link](broken-reference "mention") ) und Lua-Enums ( [Broken link](broken-reference "mention") ) den Mappern zur Verfügung gestellt.
 
-Wünsche und Vorschläge für neue Funktionalitäten gerne über Discord mitteilen.
+Wünsche und Vorschläge für neue Funktionalitäten können gerne über Discord mitgeteilt werden.
 
 
 
