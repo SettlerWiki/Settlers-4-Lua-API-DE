@@ -1,5 +1,5 @@
 ---
-description: 'Aktuellste Version: 0.3.0'
+description: 'Aktuelle Version: 0.3.0'
 ---
 
 # SU Library
