@@ -17,7 +17,7 @@ Setzt an den angegebenen Koordinaten die Ressource.
 #### Parameter
 
 * `x, y`: Koordinaten
-* `resource`: [ai-7.md](../../su-api-enums/ai-7.md "mention")
+* `resource`: [ai-9.md](../../su-api-enums/ai-9.md "mention")
 
 #### Rückgabewert
 

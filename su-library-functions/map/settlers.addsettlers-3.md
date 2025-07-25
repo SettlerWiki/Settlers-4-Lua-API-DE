@@ -14,7 +14,7 @@ Gibt das Objekt an den angegebenen Koordinaten zurück.
 
 #### Rückgabewert
 
-* [ai-6.md](../../su-api-enums/ai-6.md "mention")
+* [ai-8.md](../../su-api-enums/ai-8.md "mention")
 
 #### Beispiel
 

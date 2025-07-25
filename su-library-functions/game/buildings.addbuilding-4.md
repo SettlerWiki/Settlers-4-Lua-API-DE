@@ -14,7 +14,7 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 #### Parameter
 
-* `guiElement`: [ai-4.md](../../su-api-enums/ai-4.md "mention")
+* `guiElement`: [ai-6.md](../../su-api-enums/ai-6.md "mention")
 
 #### Rückgabewert
 

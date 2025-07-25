@@ -31,7 +31,7 @@ Ist die Entität mit der entityID:
 
 #### Rückgabewert
 
-* [ai-2.md](../../su-api-enums/ai-2.md "mention")
+* [ai-3.md](../../su-api-enums/ai-3.md "mention")
 
 #### Beispiel
 

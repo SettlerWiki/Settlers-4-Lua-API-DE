@@ -36,8 +36,8 @@ Ist die Entität mit der entityID:
 * [settlers.md](../../api-enums/settlers.md "mention")
 * [vehicles.md](../../api-enums/vehicles.md "mention")
 * [ai.md](../../su-api-enums/ai.md "mention")
-* [ai-6.md](../../su-api-enums/ai-6.md "mention")
-* [ai-9.md](../../su-api-enums/ai-9.md "mention")
+* [ai-8.md](../../su-api-enums/ai-8.md "mention")
+* [ai-11.md](../../su-api-enums/ai-11.md "mention")
 
 #### Beispiel
 

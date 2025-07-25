@@ -10,7 +10,7 @@ Gibt die Spielsprache zurück.
 
 #### Rückgabewert
 
-* [ai-5.md](../../su-api-enums/ai-5.md "mention")
+* [ai-7.md](../../su-api-enums/ai-7.md "mention")
 
 #### Beispiel
 

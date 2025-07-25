@@ -14,7 +14,7 @@ Gibt den Typ des Bodens an den angegebenen Koordinaten zurück.
 
 #### Rückgabewert
 
-* [ai-4 (1).md](<../../su-api-enums/ai-4 (1).md> "mention")
+* [ai-5.md](../../su-api-enums/ai-5.md "mention")
 
 #### Beispiel
 

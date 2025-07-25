@@ -1,23 +1,17 @@
 ---
-description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
+description: 'SU Library: erst ab Version 0.4.0 verfügbar!'
 ---
 
-# SU.BaseTypes
+# SU.Axis
 
 ```
-SU.BaseTypes.OTHER
+SU.Axis.NONE
 
-SU.BaseTypes.BOWMAN
-SU.BaseTypes.CIVILIAN
-SU.BaseTypes.CIVILIAN_SHIP
-SU.BaseTypes.DONKEY
-SU.BaseTypes.LEADER
-SU.BaseTypes.MILITARY_BUILDING
-SU.BaseTypes.PARAMILITARY
-SU.BaseTypes.PRIEST
-SU.BaseTypes.RACESPECIAL
-SU.BaseTypes.SWORDMAN
-SU.BaseTypes.TRADINGCART
-SU.BaseTypes.WARMACHINE
-SU.BaseTypes.WARSHIP
+SU.Axis.SHORT
+SU.Axis.LONG
+SU.Axis.BOTH_DIAG
+
+SU.Axis.HORIZONTAL
+SU.Axis.VERTICAL
+SU.Axis.BOTH_HORIZONTAL
 ```
