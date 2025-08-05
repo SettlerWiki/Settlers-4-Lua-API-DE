@@ -3,7 +3,7 @@
 ## Tutorials
 
 * [Einführung](README.md)
-* [SU Library (0.4.0)](tutorials/su-library-0.4.0.md)
+* [SU Library (0.5.0)](tutorials/su-library-0.5.0.md)
 * [Erste Schritte](tutorials/aller-anfang/README.md)
   * [Einrichtung & HelloWorld](tutorials/aller-anfang/installation-and-aufsetzen.md)
   * [Einstieg: new\_game](tutorials/aller-anfang/entrypoint-new_game.md)

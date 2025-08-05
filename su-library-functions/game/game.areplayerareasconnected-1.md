@@ -1,16 +1,14 @@
 ---
-description: 'SU Library: erst ab Version 0.4.0 verfügbar!'
+description: 'SU Library: erst ab Version 0.5.0 verfügbar!'
 ---
 
 # SU.Game.BlockToweringOverAxis
 
 ## SU.Game.BlockToweringOverAxis(enable\[, axis=SU.Axis.NONE])
 
-Wenn aktiviert, können Türme kein Land mehr über die angegebene Achse einnehmen (**ausgehend von der Startposition des Spielers!**).
+Wenn aktiviert, können **neu gebaute** Türme kein Land mehr über die angegebene Achse einnehmen (**ausgehend von der Startposition des Spielers!**).
 
-#### Notiz:
-
-* Werden Türme auf der anderen Seite der Achse eingenommen, während diese Funktion aktiv ist, nehmen die Türme kein Land ein und zerstören keine umliegenden Gebäude. Oft werden die einzunehmenden Türme auch direkt zerstört statt eingenommen.
+Eroberte Türme nehmen weiterhin überall Land ein.
 
 #### Parameter
 

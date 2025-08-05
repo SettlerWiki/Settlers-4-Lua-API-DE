@@ -4,6 +4,14 @@ description: by MuffinMario
 
 # VarsSave-Extender
 
+## NEU: "SUVars" statt "Vars" (momentan nur bei UBO-Test!)
+
+Ab der SULib Version 0.5.0 ([su-library-0.5.0.md](../su-library-0.5.0.md "mention")) gibt es die globale Tabelle "SUVars", die ähnlich funktioniert wie die bisherige Tabelle "Vars". Aber anstelle von 9 "Vars.SaveX" Variablen, wird (**momentan nur bei UBO-Test!**) mittels SU die **gesamte Tabelle SUVars abgespeichert und beim Laden wiederhergestellt (siehe** [#neu-suvars-statt-vars-momentan-nur-bei-ubo-test](../su-library-0.5.0.md#neu-suvars-statt-vars-momentan-nur-bei-ubo-test "mention")**)**.
+
+
+
+
+
 {% embed url="https://github.com/MuffinMario/Siedler-4-Lua-Vars-Save-Extender" %}
 
 <details>
@@ -169,7 +177,7 @@ end
 
 ## Siedler-4-Lua-Vars-Save-Extender
 
-Siedler 4 stellt beim Speichern des Spiels neun [double-precision floating point](https://de.wikipedia.org/wiki/Doppelte\_Genauigkeit) Variablen zur Verfügung, die der Scripter für die Map benutzen kann. In den meisten Fällen, reichen diese aus, alle Sachen, die man im Laufe des Spiels im Überblick behalten muss zu speichern.
+Siedler 4 stellt beim Speichern des Spiels neun [double-precision floating point](https://de.wikipedia.org/wiki/Doppelte_Genauigkeit) Variablen zur Verfügung, die der Scripter für die Map benutzen kann. In den meisten Fällen, reichen diese aus, alle Sachen, die man im Laufe des Spiels im Überblick behalten muss zu speichern.
 
 Jedoch gibt es auch Fälle in denen man mehr als neun Sachen speichern muss, in diesem Falle hilft diese Bibliothek weiter.
 
