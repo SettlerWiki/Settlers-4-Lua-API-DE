@@ -8,7 +8,7 @@ description: SU Library
 
 Prüft, ob die lokal vorhandene Version der SU Library mindestens so hoch ist wie die angegebene Version.
 
-⇒ Siehe [su-library-0.5.0](../tutorials/su-library-0.5.0/ "mention").
+⇒ Siehe [su-library](../tutorials/su-library/ "mention").
 
 #### Parameter
 
