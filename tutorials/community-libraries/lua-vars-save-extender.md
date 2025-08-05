@@ -4,11 +4,7 @@ description: by MuffinMario
 
 # VarsSave-Extender
 
-## NEU: "SUVars" statt "Vars" (momentan nur bei UBO-Test!)
-
-Ab der SULib Version 0.5.0 ([su-library-0.5.0.md](../su-library-0.5.0.md "mention")) gibt es die globale Tabelle "SUVars", die ähnlich funktioniert wie die bisherige Tabelle "Vars". Aber anstelle von 9 "Vars.SaveX" Variablen, wird (**momentan nur bei UBO-Test!**) mittels SU die **gesamte Tabelle SUVars abgespeichert und beim Laden wiederhergestellt (siehe** [#neu-suvars-statt-vars-momentan-nur-bei-ubo-test](../su-library-0.5.0.md#neu-suvars-statt-vars-momentan-nur-bei-ubo-test "mention")**)**.
-
-
+## ⇒ Verwende stattdessen "SUVars" für noch deutlich mehr speicherbare Variablen und einfachere Handhabung ([buildings.addbuilding.md](../su-library-0.5.0/buildings.addbuilding.md "mention"))
 
 
 

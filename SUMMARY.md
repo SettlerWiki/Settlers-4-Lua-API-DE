@@ -3,7 +3,8 @@
 ## Tutorials
 
 * [Einführung](README.md)
-* [SU Library (0.5.0)](tutorials/su-library-0.5.0.md)
+* [SU Library (0.5.0)](tutorials/su-library-0.5.0/README.md)
+  * [SUVars: mehr speicherbare Variablen](tutorials/su-library-0.5.0/buildings.addbuilding.md)
 * [Erste Schritte](tutorials/aller-anfang/README.md)
   * [Einrichtung & HelloWorld](tutorials/aller-anfang/installation-and-aufsetzen.md)
   * [Einstieg: new\_game](tutorials/aller-anfang/entrypoint-new_game.md)
