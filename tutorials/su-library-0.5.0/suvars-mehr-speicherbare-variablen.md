@@ -1,5 +1,19 @@
 ---
 description: 'SU Library: erst ab Version 0.5.0 verfügbar!'
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # SUVars: mehr speicherbare Variablen

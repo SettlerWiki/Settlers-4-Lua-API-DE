@@ -20,7 +20,7 @@ Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h.
 
 #### Rückgabewert
 
-* [ai-12.md](../../su-api-enums/ai-12.md "mention")
+* [su.tribes.md](../../su-api-enums/su.tribes.md "mention")
 
 #### Beispiel
 

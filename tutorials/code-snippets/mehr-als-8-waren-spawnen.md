@@ -1,6 +1,6 @@
 # Mehr als 8 Waren spawnen
 
-**NEU**: die neue Funktion [settlers.addsettlers.md](../../su-library-functions/su.goods/settlers.addsettlers.md "mention") erlaubt nun direkt **beliebig viele Waren** mit einem einzigen Funktionsaufruf hinzuzufügen.
+**NEU**: die neue Funktion [su.goods.addpileex.md](../../su-library-functions/su.goods/su.goods.addpileex.md "mention") erlaubt nun direkt **beliebig viele Waren** mit einem einzigen Funktionsaufruf hinzuzufügen.
 
 Mit der Funktion [Goods.AddPileEx() ](../../library-functions/goods/goods.addpileex.md)könnt ihr **einen** Warenstapel setzen. Wenn ihr jedoch bei der Anzahl der Güter einen höheren Wert als 8 eintragt, führt dies zu einem FE. Daher benötigt ihr einen kleinen Workaround:
 

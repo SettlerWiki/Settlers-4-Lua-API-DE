@@ -8,7 +8,7 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 Platziert eine Baustelle des angegebenen Gebäude-Typs für den genannten Spieler möglichst nahe an den angegebenen Koordinaten. Dabei wird in einem Radius von 4 Feldern nach einer freien Stelle gesucht, an der die Baustelle platziert werden kann.
 
-⇒ Radius: siehe [buildings.addbuilding-3.md](buildings.addbuilding-3.md "mention")
+⇒ Radius: siehe [su.buildings.addconstructionsiteex.md](su.buildings.addconstructionsiteex.md "mention")
 
 #### Parameter
 

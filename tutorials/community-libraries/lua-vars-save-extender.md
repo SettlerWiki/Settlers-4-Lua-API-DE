@@ -4,7 +4,7 @@ description: by MuffinMario
 
 # VarsSave-Extender
 
-## ⇒ Verwende stattdessen "SUVars" für noch deutlich mehr speicherbare Variablen und einfachere Handhabung ([buildings.addbuilding.md](../su-library-0.5.0/buildings.addbuilding.md "mention"))
+## ⇒ Verwende stattdessen "SUVars" für noch deutlich mehr speicherbare Variablen und einfachere Handhabung ([suvars-mehr-speicherbare-variablen.md](../su-library-0.5.0/suvars-mehr-speicherbare-variablen.md "mention"))
 
 
 

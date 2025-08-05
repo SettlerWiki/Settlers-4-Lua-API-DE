@@ -14,7 +14,7 @@ Zusätzlich wird ein Sound abgespielt.
 
 * `arrowDuration` (optional): Zeit in Spiel-Sekunden, wie lange der Pfeil auf der Karte angezeigt werden soll.
 * `minimapDuration` (optional): Zeit in Spiel-Sekunden, wie lange die blinkende Animation auf der Minimap  angezeigt werden soll.
-* `[msg, ...]` (optional) : siehe [buildings.addbuilding-9.md](buildings.addbuilding-9.md "mention")
+* `[msg, ...]` (optional) : siehe [su.game.showtextmessage.md](su.game.showtextmessage.md "mention")
 
 
 

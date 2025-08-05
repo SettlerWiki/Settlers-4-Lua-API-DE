@@ -6,7 +6,7 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 ## SU.Entity.GetType(entityID)
 
-Gibt den **spezifischen Typ** der angegebenen Entität zurück. Um den Typ richtig zu interpretieren, muss [game.areplayerareasconnected-2.md](game.areplayerareasconnected-2.md "mention") verwendet werden.
+Gibt den **spezifischen Typ** der angegebenen Entität zurück. Um den Typ richtig zu interpretieren, muss [su.entity.getentitytype.md](su.entity.getentitytype.md "mention") verwendet werden.
 
 Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h. **Objekte, Siedler, Gebäude, Fahrzeuge, Warenstapel, Tiere, etc.**, für Mapper also **quasi alles Auswählbare** (und noch mehr).
 
@@ -17,11 +17,11 @@ Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h.
 Ist die Entität mit der entityID:
 
 * **generell** ein Gebäude, Siedler, Warenstapel, etc., **egal welches/r genau**\
-  ⇒ [game.areplayerareasconnected-2.md](game.areplayerareasconnected-2.md "mention")
+  ⇒ [su.entity.getentitytype.md](su.entity.getentitytype.md "mention")
 * **grob gruppiert** ein Nahrungsgebäude, eine Mine, ein Soldat\
-  ⇒ [game.areplayerareasconnected-9.md](game.areplayerareasconnected-9.md "mention")
+  ⇒ [su.entity.getroleclass.md](su.entity.getroleclass.md "mention")
 * **spezifisch** eine Kaserne, ein Bogenschütze, ein Goldbarren, etc.\
-  ⇒ [game.areplayerareasconnected-11.md](game.areplayerareasconnected-11.md "mention")
+  ⇒ [su.entity.gettype.md](su.entity.gettype.md "mention")
 
 
 
@@ -35,9 +35,9 @@ Ist die Entität mit der entityID:
 * [goods.md](../../api-enums/goods.md "mention")
 * [settlers.md](../../api-enums/settlers.md "mention")
 * [vehicles.md](../../api-enums/vehicles.md "mention")
-* [ai.md](../../su-api-enums/ai.md "mention")
-* [ai-8.md](../../su-api-enums/ai-8.md "mention")
-* [ai-11.md](../../su-api-enums/ai-11.md "mention")
+* [su.animals.md](../../su-api-enums/su.animals.md "mention")
+* [su.objects.md](../../su-api-enums/su.objects.md "mention")
+* [su.trees.md](../../su-api-enums/su.trees.md "mention")
 
 #### Beispiel
 

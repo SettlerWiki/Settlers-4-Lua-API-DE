@@ -2,11 +2,11 @@
 description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 ---
 
-# SU.Entity.GetEntityType
+# SU.Entity.GetClass
 
-## SU.Entity.GetEntityType(entityID)
+## SU.Entity.GetClass(entityID)
 
-Gibt den **generellen Typ** (Gebäude, Siedler, etc.) der angegebenen Entität zurück.
+Gibt die Klasse der angegebenen Entität zurück.
 
 Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h. **Objekte, Siedler, Gebäude, Fahrzeuge, Warenstapel, Tiere, etc.**, für Mapper also **quasi alles Auswählbare** (und noch mehr).
 
@@ -17,11 +17,11 @@ Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h.
 Ist die Entität mit der entityID:
 
 * **generell** ein Gebäude, Siedler, Warenstapel, etc., **egal welches/r genau**\
-  ⇒ [game.areplayerareasconnected-2.md](game.areplayerareasconnected-2.md "mention") ([game.areplayerareasconnected.md](game.areplayerareasconnected.md "mention"), [game.areplayerareasconnected-1.md](game.areplayerareasconnected-1.md "mention"))
+  ⇒ [su.entity.getentitytype.md](su.entity.getentitytype.md "mention") ([su.entity.getbasetype.md](su.entity.getbasetype.md "mention"), [su.entity.getclass.md](su.entity.getclass.md "mention"))
 * **grob gruppiert** ein Nahrungsgebäude, eine Mine, ein Soldat\
-  ⇒ [game.areplayerareasconnected-9.md](game.areplayerareasconnected-9.md "mention")
+  ⇒ [su.entity.getroleclass.md](su.entity.getroleclass.md "mention")
 * **spezifisch** eine Kaserne, ein Bogenschütze, ein Goldbarren, etc.\
-  ⇒ [game.areplayerareasconnected-11.md](game.areplayerareasconnected-11.md "mention")
+  ⇒ [su.entity.gettype.md](su.entity.gettype.md "mention")
 
 
 
@@ -31,10 +31,10 @@ Ist die Entität mit der entityID:
 
 #### Rückgabewert
 
-* [ai-4.md](../../su-api-enums/ai-4.md "mention")
+* [su.classes.md](../../su-api-enums/su.classes.md "mention")
 
 #### Beispiel
 
 ```lua
-local entityType = SU.Entity.GetEntityType(entityID)
+local entityClass = SU.Entity.GetClass(entityID)
 ```

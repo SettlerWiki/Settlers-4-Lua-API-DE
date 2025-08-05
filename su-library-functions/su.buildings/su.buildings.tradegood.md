@@ -8,7 +8,7 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 Stellt am durch die ID gegebenen Gebäude ein, wie viel der angegebenen Ware verschickt werden soll.
 
-Die Handelsroute wird mittels [buildings.delete-11.md](buildings.delete-11.md "mention")gesetzt.
+Die Handelsroute wird mittels [su.buildings.settradingroute.md](su.buildings.settradingroute.md "mention")gesetzt.
 
 #### Parameter
 

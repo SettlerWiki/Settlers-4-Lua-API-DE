@@ -20,7 +20,7 @@ Wünsche und Vorschläge für neue Funktionalitäten können gerne über Discord
 
 Neue Funktionen werden immer wieder zur SU Library hinzugefügt. Damit ein Skript, das auf Funktionen einer neueren Version basiert, als der Spieler lokal zur Verfügung hat, nicht abstürzt, sollte vorher auf die höchste Version der SU Library geprüft werden, die benötigt wird.
 
-**Beispiel**: Wird die Funktion [game.areplayerareasconnected.md](../../su-library-functions/game/game.areplayerareasconnected.md "mention") verwendet, steht oben auf der Seite der Funktion "`SU Library: erst ab Version 0.2.0 verfügbar!`", d.h. um diese Funktion fehlerfrei verwenden zu können, muss beim Spieler mindestens die `Version 0.2.0` vorhanden sein!
+**Beispiel**: Wird die Funktion [su.game.addbeds.md](../../su-library-functions/su.game/su.game.addbeds.md "mention") verwendet, steht oben auf der Seite der Funktion "`SU Library: erst ab Version 0.2.0 verfügbar!`", d.h. um diese Funktion fehlerfrei verwenden zu können, muss beim Spieler mindestens die `Version 0.2.0` vorhanden sein!
 
 Der Einfachheit halber kann auch direkt auf die **neueste Version** geprüft werden, die zum Zeitpunkt der Erstellung des Skripts vorhanden war, die wird immer **auf dieser Seite ganz oben** sichtbar sein.
 

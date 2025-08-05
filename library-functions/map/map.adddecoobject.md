@@ -4,7 +4,7 @@
 
 Platziert eine Objekt an den angegeben Koordinaten. Auf diese Weise lassen sich einige Objekte platzieren, die es nicht im Editor gibt.
 
-⇒ ObjectID: [ai-8.md](../../su-api-enums/ai-8.md "mention")
+⇒ ObjectID: [su.objects.md](../../su-api-enums/su.objects.md "mention")
 
 #### Rückgabewert
 

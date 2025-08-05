@@ -8,4 +8,4 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 Zeigt die Nachricht im Chat an.
 
-Kurzform von / Beschreibung siehe [buildings.addbuilding-9.md](buildings.addbuilding-9.md "mention").
+Kurzform von / Beschreibung siehe [su.game.showtextmessage.md](su.game.showtextmessage.md "mention").

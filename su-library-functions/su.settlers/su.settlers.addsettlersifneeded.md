@@ -19,7 +19,7 @@ Z.B. kann diese Funktion jede Minute aufgerufen werden und im angegebenen Bereic
 * wie die anderen Funktionen auch, sollte gerade diese Funktion nicht zu häufig aufgerufen werden (nicht alle paar Ticks), sondern lieber seltener (z.B. jede Minute), das reicht in den allermeisten Fällen aus
 * der Radius muss mit Bedacht gewählt werden. Ist er zu klein, sodass `amount` viele gar keinen Platz darin hätten, werden unendlich lange Siedler hinzugefügt und das Spiel wird früher oder später daran abstürzen!
 * wird die Funktion dauerhaft ausgeführt, sollte `withBeds` **nicht** aktiviert sein, da dies endlos Betten hinzufügt. Besser wäre es, die Bettenanzahl einmalig zu einem hohen Wert zu setzen\
-  ⇒ [game.areplayerareasconnected-3.md](../game/game.areplayerareasconnected-3.md "mention") bzw. [game.areplayerareasconnected.md](../game/game.areplayerareasconnected.md "mention")
+  ⇒ [su.game.setbeds.md](../su.game/su.game.setbeds.md "mention") bzw. [su.game.addbeds.md](../su.game/su.game.addbeds.md "mention")
 
 #### Parameter
 

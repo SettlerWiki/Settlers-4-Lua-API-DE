@@ -8,7 +8,7 @@ description: 'SU Library: erst ab Version 0.2.0 verfügbar!'
 
 Zeigt die Nachricht im Chat an.
 
-**Kurzform** siehe[buildings.addbuilding-10.md](buildings.addbuilding-10.md "mention").
+**Kurzform** siehe[su.game.stm.md](su.game.stm.md "mention").
 
 #### Parameter
 

@@ -14,7 +14,7 @@ Gibt die Ressource an den angegebenen Koordinaten zurück.
 
 #### Rückgabewert
 
-* [ai-9.md](../../su-api-enums/ai-9.md "mention")
+* [su.resources.md](../../su-api-enums/su.resources.md "mention")
 
 #### Beispiel
 

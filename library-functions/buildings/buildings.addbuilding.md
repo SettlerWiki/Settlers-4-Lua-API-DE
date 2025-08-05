@@ -7,7 +7,7 @@ description: VERALTET und FEHLERHAFT
 ## ~~`Buildings.AddBuilding(x, y, Spieler, Gebäude)`~~
 
 **Diese Funktion sollte NICHT mehr verwendet werden (siehe unten).**\
-**Stattdessen ⇒** [buildings.addbuilding.md](../../su-library-functions/buildings/buildings.addbuilding.md "mention")
+**Stattdessen ⇒** [su.buildings.addbuilding.md](../../su-library-functions/su.buildings/su.buildings.addbuilding.md "mention")
 
 Platziert ein Gebäude für den genannten Spieler an den angegebenen Koordinaten.
 

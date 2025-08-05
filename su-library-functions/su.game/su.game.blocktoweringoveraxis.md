@@ -13,7 +13,7 @@ Eroberte Türme nehmen weiterhin überall Land ein.
 #### Parameter
 
 * `enable [0,1]`: de- (0) / aktiviert (1) die Funktionalität
-* `axis` (optional): Achse [ai-1.md](../../su-api-enums/ai-1.md "mention")
+* `axis` (optional): Achse [su.axis.md](../../su-api-enums/su.axis.md "mention")
 
 #### Beispiel
 

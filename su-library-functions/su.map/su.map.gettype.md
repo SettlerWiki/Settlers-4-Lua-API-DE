@@ -14,7 +14,7 @@ Gibt den Typ des Bodens an den angegebenen Koordinaten zurück.
 
 #### Rückgabewert
 
-* [ai-5.md](../../su-api-enums/ai-5.md "mention")
+* [su.grounds.md](../../su-api-enums/su.grounds.md "mention")
 
 #### Beispiel
 
