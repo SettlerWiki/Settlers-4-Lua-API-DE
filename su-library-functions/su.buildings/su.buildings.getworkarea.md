@@ -6,7 +6,7 @@ description: 'SU Library: erst ab Version 0.6.0 verfügbar!'
 
 ## SU.Buildings.GetWorkarea(buildingID)
 
-Gibt die Koordinaten zurück, wo der Arbeitsbereich des Gebäudes gesetzt ist.
+Gibt die Koordinaten des Arbeitsbereiches des Gebäudes zurück.
 
 #### Parameter
 
@@ -14,7 +14,7 @@ Gibt die Koordinaten zurück, wo der Arbeitsbereich des Gebäudes gesetzt ist.
 
 #### Rückgabewert
 
-* x, y: Koordinaten des Arbeitsbereich
+* x, y: Koordinaten des Arbeitsbereiches
 * -1: sonst / Fehler
 
 #### Beispiel
