@@ -183,9 +183,12 @@
   * [SU.Buildings.AddConstructionSite](su-library-functions/su.buildings/su.buildings.addconstructionsite.md)
   * [SU.Buildings.AddConstructionSiteEx](su-library-functions/su.buildings/su.buildings.addconstructionsiteex.md)
   * [SU.Buildings.GarrisonWarriors](su-library-functions/su.buildings/su.buildings.garrisonwarriors.md)
+  * [SU.Buildings.GetBuildingsInArea](su-library-functions/su.buildings/su.buildings.getbuildingsinarea.md)
   * [SU.Buildings.GetConstructionState](su-library-functions/su.buildings/su.buildings.getconstructionstate.md)
+  * [SU.Buildings.GetFirstBuildingInArea](su-library-functions/su.buildings/su.buildings.getfirstbuildinginarea.md)
   * [SU.Buildings.GetHaltedState](su-library-functions/su.buildings/su.buildings.gethaltedstate.md)
   * [SU.Buildings.GetPriorityState](su-library-functions/su.buildings/su.buildings.getprioritystate.md)
+  * [SU.Buildings.GetWorkarea](su-library-functions/su.buildings/su.buildings.getworkarea.md)
   * [SU.Buildings.RecruitVehicle](su-library-functions/su.buildings/su.buildings.recruitvehicle.md)
   * [SU.Buildings.RecruitWarriors](su-library-functions/su.buildings/su.buildings.recruitwarriors.md)
   * [SU.Buildings.SetHaltedState](su-library-functions/su.buildings/su.buildings.sethaltedstate.md)
@@ -215,6 +218,8 @@
   * [SU.Entity.GetTribe](su-library-functions/su.entity/su.entity.gettribe.md)
   * [SU.Entity.GetType](su-library-functions/su.entity/su.entity.gettype.md)
   * [SU.Entity.GetUniqueID](su-library-functions/su.entity/su.entity.getuniqueid.md)
+  * [SU.Entity.SetHealth](su-library-functions/su.entity/su.entity.sethealth.md)
+  * [SU.Entity.SetHealthRelative](su-library-functions/su.entity/su.entity.sethealthrelative.md)
   * [SU.Entity.PileGetAmount](su-library-functions/su.entity/su.entity.pilegetamount.md)
 * [SU.Game](su-library-functions/su.game/README.md)
   * [SU.Game.AddBeds](su-library-functions/su.game/su.game.addbeds.md)
@@ -251,6 +256,8 @@
 * [SU.Settlers](su-library-functions/su.settlers/README.md)
   * [SU.Settlers.AddSettlersIfNeeded](su-library-functions/su.settlers/su.settlers.addsettlersifneeded.md)
   * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/su.settlers.addsettlerswithbeds.md)
+  * [SU.Settlers.SetHealthInArea](su-library-functions/su.settlers/su.settlers.sethealthinarea.md)
+  * [SU.Settlers.SetHealthInAreaRelative](su-library-functions/su.settlers/su.settlers.sethealthinarearelative.md)
 
 ## API Enums
 
