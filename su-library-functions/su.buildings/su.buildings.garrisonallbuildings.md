@@ -27,5 +27,5 @@ none
 
 ```lua
 -- besetzt nur alle kleinen Türme vom Spieler 3
-SU.Buildings.GarrisonAllWarriors(3, 1, 0, 0)
+SU.Buildings.GarrisonAllBuildings(3, 1, 0, 0)
 ```

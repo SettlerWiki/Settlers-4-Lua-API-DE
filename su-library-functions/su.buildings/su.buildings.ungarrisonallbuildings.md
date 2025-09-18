@@ -27,5 +27,5 @@ none
 
 ```lua
 -- leert nur alle großen Türme vom Spieler 3
-SU.Buildings.UnGarrisonAllWarriors(3, 0, 1, 0)
+SU.Buildings.UnGarrisonAllBuildings(3, 0, 1, 0)
 ```
