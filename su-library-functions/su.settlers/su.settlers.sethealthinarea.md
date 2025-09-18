@@ -26,7 +26,7 @@ Setzt die Lebenspunkte der angegebenen Siedler im gegebenen Bereich.
 
 #### Rückgabewert
 
-* Anzahl an Entitäten, dessen Lebenspunkte verändert wurden
+* Anzahl an Entitäten, deren Lebenspunkte verändert wurden
 * -1: sonst / Fehler
 
 #### Beispiel

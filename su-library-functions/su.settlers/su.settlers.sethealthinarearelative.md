@@ -11,9 +11,9 @@ Setzt die relativen Lebenspunkte der angegebenen Siedler im gegebenen Bereich.
 #### Notiz
 
 * Haben Siedler keine Lebenspunkte (=0), werden sie ignoriert
-* Der gegebene Absolutwert (`newHealth`) wird auf die maximalen Lebenspunkte der Entität beschränkt
-* `newHealth=0` setzt die Lebenspunkte zwar auf 0, löst aber **nicht** die Kill-Funktion aus (Siedler ist danach quasi 1-Hit)
-* `x`, `y`, `radius` oder `newHealth` im negativen Bereich (<0) wird ignoriert und die Funktion nicht ausgeführt (siehe Rückgabewert)
+* Der gegebene Relativwert (`relativeHealth`) wird auf \[0, 100] beschränkt
+* `relativeHealth=0` setzt die Lebenspunkte zwar auf 0, löst aber **nicht** die Kill-Funktion aus (Siedler ist danach quasi 1-Hit)
+* `x`, `y`, `radius` oder `relativeHealth` im negativen Bereich (<0) wird ignoriert und die Funktion nicht ausgeführt (siehe Rückgabewert)
 
 #### Parameter
 
@@ -26,7 +26,7 @@ Setzt die relativen Lebenspunkte der angegebenen Siedler im gegebenen Bereich.
 
 #### Rückgabewert
 
-* Anzahl an Entitäten, dessen Lebenspunkte verändert wurden
+* Anzahl an Entitäten, deren Lebenspunkte verändert wurden
 * -1: sonst / Fehler
 
 #### Beispiel

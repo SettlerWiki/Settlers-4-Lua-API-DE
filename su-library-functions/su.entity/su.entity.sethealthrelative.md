@@ -11,7 +11,7 @@ Setzt die relativen Lebenspunkte der angegebenen Entität.
 #### Notiz
 
 * Haben Entitäten keine Lebenspunkte (=0), werden sie ignoriert
-* Der gegebene Absolutwert (`relativeHealth`) wird auf die maximalen Lebenspunkte der Entität beschränkt
+* Der gegebene Relativwert (`relativeHealth`) wird auf \[0, 100] beschränkt
 * `relativeHealth=0` setzt die Lebenspunkte zwar auf 0, löst aber **nicht** die Kill-Funktion aus (Entität ist danach quasi 1-Hit)
 * `relativeHealth` im negativen Bereich (<0) wird ignoriert und die Funktion nicht ausgeführt (siehe Rückgabewert)
 
@@ -22,7 +22,7 @@ Setzt die relativen Lebenspunkte der angegebenen Entität.
 
 #### Rückgabewert
 
-* Neue Lebenspunkte (**absolut**)
+* Neue (**absoluten!**) Lebenspunkte
 * -1: sonst / Fehler
 
 #### Beispiel
