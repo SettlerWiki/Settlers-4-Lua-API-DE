@@ -30,10 +30,25 @@ Mit der richtigen Handhabung können so **auch dynamische Daten** abgespeichert 
 
 
 
-**Wichtig**:
+## Verwendung
 
-* Tabelleneinträge müssen einmalig(!) initialisiert werden, bevor sie abgefragt und/oder verglichen werden. Sonst wird "`nil`" zurückgegeben, was nicht mit anderen Werten außer "`nil`" verglichen werden kann.
-* Die Tabelle sollte nie im globalen Bereich beschrieben werden, da das die Tabelle bei jedem Laden überschreibt.
+SUVars kann ganz normal wie jede andere Lua-Tabelle verwendet werden:
+
+```lua
+-- alle diese Beispiele sind Möglichkeiten, SUVars zu verwenden
+SUVars["variableName"] = 123
+SUVars.variableName = 456
+SUVars["variableName"] = "Hey "
+SUVars.variableName = "there!"
+SUVars["variableName"] = {1, 2, 3, "4", "5"}
+```
+
+#### Notizen:
+
+* Tabelleneinträge müssen einmalig(!) **initialisiert** werden, bevor sie abgefragt und/oder verglichen werden. Sonst wird "`nil`" zurückgegeben, was nicht mit anderen Werten außer "`nil`" verglichen werden kann.
+* Die Tabelle **sollte nie** im **globalen** Bereich **beschrieben werden**, da das die Tabelle bei jedem Laden überschreibt.
+
+#### Beispiel
 
 ```lua
 -- Do NOT do this:
@@ -53,6 +68,7 @@ function fiveTicks()
     SUVars["gameTime"] = time  -- saves the last processed time
     -- do something here...
     dbg.stm(time)
+    -- All of the following lines work:
     --SUVars["number1"] = 123
     --SUVars.number2 = 456
     --SUVars["str1"] = "Hey "
@@ -63,6 +79,7 @@ end
 
 -- check for proper SULib version
 function new_game()
+  -- check for minimum SULib version
   -- don't add anything in this function above these lines
   if SU then
     local requiredVersion = "0.5.0"

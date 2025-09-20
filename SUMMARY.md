@@ -14,6 +14,7 @@
   * [Die Vars.Save Variablen](tutorials/advanced-tipps/die-vars.save-variablen.md)
   * [Moderner Lua Compiler](tutorials/advanced-tipps/moderner-lua-compiler.md)
   * [S4Editor Export Path Changer](tutorials/advanced-tipps/s4editor-export-path-changer.md)
+  * [Externe Lua Skripte](tutorials/advanced-tipps/externe-lua-skripte.md)
   * [Anticheat](tutorials/advanced-tipps/anticheat.md)
   * [Löschen aller Gebäude](tutorials/advanced-tipps/delete-all-buildings.md)
   * [Platzieren von Gebäuden](tutorials/advanced-tipps/place-buildings.md)

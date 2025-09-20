@@ -1,5 +1,9 @@
 # Die Vars.Save Variablen
 
+Für **unbeschränkt viele Variablen** über Speicherstände hinweg **siehe** [suvars.md](../su-library/suvars.md "mention").
+
+
+
 Nun da wir gelernt haben wo wir mit dem Scripten anfangen, nehmen wir uns mal ein kleines, aber interessantes Thema vor: Die Speichervariablen.\
 \
 Damit eine große Scriptmap die sich aktiv am Spielgeschehen der Map beteiligt richtig funktioniert, muss sie sich logischerweise nicht nur zu Start eines Spiels gut funktionieren, sondern auch nach dem laden eines Spielstandes. \
@@ -11,7 +15,7 @@ Natürlich haben die Entwickler sich da was ausgedacht. Die **Vars.SaveX** Varia
 Ein konkretes Beispiel zu dem Verhalten von normalen Variablen und Vars.SaveX Variablen sollte das veranschaulichen:
 
 {% hint style="info" %}
-_Info: Die Funktion_ [_register\_functions_](../../library-functions/global-functions/register\_functions.md) _bzw_[ _request\_event_ ](../../library-functions/global-functions/request\_event.md)_gehört fürs erste ignoriert. Alles was man wissen muss ist: **varSaveStandard** wird nur beim allerersten Start des Spiels aufgerufen und **onGameStartSave** bei sowohl neuem Spiel als auch geladenen. **tostring(x)** lässt uns bei nicht nummer/text einen text zurückbekommen (hier nil)_
+_Info: Die Funktion_ [_register\_functions_](../../library-functions/global-functions/register_functions.md) _bzw_[ _request\_event_ ](../../library-functions/global-functions/request_event.md)_gehört fürs erste ignoriert. Alles was man wissen muss ist: **varSaveStandard** wird nur beim allerersten Start des Spiels aufgerufen und **onGameStartSave** bei sowohl neuem Spiel als auch geladenen. **tostring(x)** lässt uns bei nicht nummer/text einen text zurückbekommen (hier nil)_
 {% endhint %}
 
 ```lua
@@ -48,15 +52,15 @@ end
 
 ## Beim Spielbeginn
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/tBCXU1P.png)
+![](https://web.archive.org/web/20200829133422im_/https://i.imgur.com/tBCXU1P.png)
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/oR3Q6b6.png)
+![](https://web.archive.org/web/20200829133422im_/https://i.imgur.com/oR3Q6b6.png)
 
 ## **Beim Spiel laden**
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/BM6AcAP.png)
+![](https://web.archive.org/web/20200829133422im_/https://i.imgur.com/BM6AcAP.png)
 
-![](https://web.archive.org/web/20200829133422im\_/https://i.imgur.com/1YhQzpV.png)
+![](https://web.archive.org/web/20200829133422im_/https://i.imgur.com/1YhQzpV.png)
 
 Hier haben wir 5 Typen von Variablen:
 

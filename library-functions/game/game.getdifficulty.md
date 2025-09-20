@@ -2,7 +2,9 @@
 
 ## `Game.GetDifficulty()`
 
-Prüft, welche Schwierigkeit eingestellt ist
+Prüft, welche Schwierigkeit eingestellt ist.
+
+#### ACHTUNG: prüft nur LOKAL, welche Schwierigkeit eingestellt ist ⇒ haben Spieler im S4-Menü unterschiedliche Einstellungen, gibt es einen Desync!
 
 #### Rückgabewert
 
@@ -11,5 +13,5 @@ Prüft, welche Schwierigkeit eingestellt ist
 #### Beispiel
 
 ```lua
-Game.GetDifficulty()
+local localDifficulty = Game.GetDifficulty()
 ```
