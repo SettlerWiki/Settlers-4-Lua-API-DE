@@ -3,7 +3,7 @@
 ## Tutorials
 
 * [Einführung](README.md)
-* [SU Library (0.6.0)](tutorials/su-library/README.md)
+* [SU Library (0.6.1)](tutorials/su-library/README.md)
   * [SUVars: mehr speicherbare Variablen](tutorials/su-library/suvars.md)
 * [Erste Schritte](tutorials/aller-anfang/README.md)
   * [Einrichtung & HelloWorld](tutorials/aller-anfang/installation-and-aufsetzen.md)
@@ -238,6 +238,7 @@
   * [SU.Game.PingTeam](su-library-functions/su.game/su.game.pingteam.md)
   * [SU.Game.PingTeamOfPlayer](su-library-functions/su.game/su.game.pingteamofplayer.md)
   * [SU.Game.SetBeds](su-library-functions/su.game/su.game.setbeds.md)
+  * [SU.Game.SetFightingStrengthBaseValuePerNumberOfPlayers](su-library-functions/su.game/su.game.setfightingstrengthbasevaluepernumberofplayers.md)
   * [SU.Game.SetMaxSelection](su-library-functions/su.game/su.game.setmaxselection.md)
   * [SU.Game.ShowTextMessage](su-library-functions/su.game/su.game.showtextmessage.md)
   * [SU.Game.stm](su-library-functions/su.game/su.game.stm.md)
