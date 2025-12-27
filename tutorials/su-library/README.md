@@ -1,6 +1,6 @@
-# SU Library (0.5.0)
+# SU Library (0.6.2)
 
-Mit dieser SU Library, die direkt in Settlers United integriert ist, werden fortlaufend neue Lua-Funktionen  ( [Broken link](broken-reference "mention") ) und Lua-Enums ( [Broken link](broken-reference "mention") ) den Mappern zur Verfügung gestellt.
+Mit dieser SU Library, die direkt in Settlers United integriert ist, werden fortlaufend neue Lua-Funktionen  ( [Broken link](/broken/pages/APJx7MX5RTC5ZrQDmZ7r "mention") ) und Lua-Enums ( [Broken link](/broken/pages/QQqxL31yIR7oKzBfMqdn "mention") ) den Mappern zur Verfügung gestellt.
 
 Wünsche und Vorschläge für neue Funktionalitäten können gerne über Discord mitgeteilt werden.
 

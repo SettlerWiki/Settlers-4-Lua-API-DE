@@ -3,7 +3,7 @@
 ## Tutorials
 
 * [Einführung](README.md)
-* [SU Library (0.6.1)](tutorials/su-library/README.md)
+* [SU Library (0.6.2)](tutorials/su-library/README.md)
   * [SUVars: mehr speicherbare Variablen](tutorials/su-library/suvars.md)
 * [Erste Schritte](tutorials/aller-anfang/README.md)
   * [Einrichtung & HelloWorld](tutorials/aller-anfang/installation-and-aufsetzen.md)
@@ -245,6 +245,7 @@
 * [SU.Goods](su-library-functions/su.goods/README.md)
   * [SU.Goods.AddPileEx](su-library-functions/su.goods/su.goods.addpileex.md)
 * [SU.Map](su-library-functions/su.map/README.md)
+  * [SU.Map.DeleteAllDecoObjects](su-library-functions/su.map/su.map.deletealldecoobjects.md)
   * [SU.Map.GetEcoSector](su-library-functions/su.map/su.map.getecosector.md)
   * [SU.Map.GetFogOfWar](su-library-functions/su.map/su.map.getfogofwar.md)
   * [SU.Map.GetHeight](su-library-functions/su.map/su.map.getheight.md)
@@ -257,6 +258,7 @@
   * [SU.Map.IsFoundingStone](su-library-functions/su.map/su.map.isfoundingstone.md)
   * [SU.Map.IsOccupied](su-library-functions/su.map/su.map.isoccupied.md)
   * [SU.Map.SetResource](su-library-functions/su.map/su.map.setresource.md)
+  * [SU.Map.TakeMap](su-library-functions/su.map/su.map.takemap.md)
 * [SU.Settlers](su-library-functions/su.settlers/README.md)
   * [SU.Settlers.AddSettlersIfNeeded](su-library-functions/su.settlers/su.settlers.addsettlersifneeded.md)
   * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/su.settlers.addsettlerswithbeds.md)
