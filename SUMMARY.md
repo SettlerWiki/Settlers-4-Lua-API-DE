@@ -3,7 +3,7 @@
 ## Tutorials
 
 * [Einführung](README.md)
-* [SU Library (0.6.2)](tutorials/su-library/README.md)
+* [SU Library (0.6.3)](tutorials/su-library/README.md)
   * [SUVars: mehr speicherbare Variablen](tutorials/su-library/suvars.md)
 * [Erste Schritte](tutorials/aller-anfang/README.md)
   * [Einrichtung & HelloWorld](tutorials/aller-anfang/installation-and-aufsetzen.md)
@@ -178,6 +178,8 @@
 ## SU Library Functions
 
 * [SU.VersionOK](su-library-functions/su.versionok.md)
+* [SU.dbg](su-library-functions/su.dbg/README.md)
+  * [SU.dbg.Trace](su-library-functions/su.dbg/su.dbg.trace.md)
 * [SU.Buildings](su-library-functions/su.buildings/README.md)
   * [SU.Buildings.AddBuilding](su-library-functions/su.buildings/su.buildings.addbuilding.md)
   * [SU.Buildings.AddBuildingEx](su-library-functions/su.buildings/su.buildings.addbuildingex.md)

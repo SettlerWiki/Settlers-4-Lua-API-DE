@@ -17,8 +17,7 @@ ScriptEditor von MuffinMario
 \
 **Und wo fange ich jetzt an?**\
 Die Tutorials unter [Erste Schritte](tutorials/aller-anfang/) sind gedacht um den Einstieg in Mapscripting in Siedler 4 zu finden\
-[Erweiterte Tipps](tutorials/advanced-tipps/) sind weiterführende Tutorials um tiefergehende Sachen zu erklären. Unter [Code Schnipsel](tutorials/code-snippets/) findet ihr hilfreiche Codebeispiele zum Kopieren. \
-
+[Erweiterte Tipps](tutorials/advanced-tipps/) sind weiterführende Tutorials um tiefergehende Sachen zu erklären. Unter [Code Schnipsel](tutorials/code-snippets/) findet ihr hilfreiche Codebeispiele zum Kopieren. <br>
 
 Ein Dank geht an MuffinMario, UltimateSpinDash und Concyl - ohne die wir hier nicht die Möglichkeit hätten Scripts so zu verwenden wie wir es heute tun können.&#x20;
 
