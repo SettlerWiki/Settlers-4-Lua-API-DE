@@ -1,6 +1,6 @@
 # Einstieg: new\_game
 
-Die[ new\_game()](../../library-functions/global-functions/new\_game.md) Funktion ist der Haupteinstiegspunkt jedes Mapscripts. Neben [register\_functions()](../../library-functions/global-functions/register\_functions.md) ist dies die einzige Methode, welche vom S4 Spiel selbst direkt aufgerufen wird. (Hier wird der globale Bereich mal abgesehen, da der immer ausgeführt wird)\
+Die[ new\_game()](../../library-functions/global-functions/new_game.md) Funktion ist der Haupteinstiegspunkt jedes Mapscripts. Neben [register\_functions()](../../library-functions/global-functions/register_functions.md) ist dies die einzige Methode, welche vom S4 Spiel selbst direkt aufgerufen wird. (Hier wird der globale Bereich mal abgesehen, da der immer ausgeführt wird)\
 \
 **Beispiel: Was wird ausgeführt?**
 
@@ -26,8 +26,7 @@ dbg.stm("Ja, der globale Bereich wird vom Spiel aufgerufen!") -- nicht schön!!!
 Beim Spielstart sieht die Konsole möglicherweise so aus\
 <img src="https://web.archive.org/web/20200829133418im_/https://i.imgur.com/dUluw2S.png" alt="" data-size="original">\
 Nach dem Laden des Spielstandes:\
-<img src="https://web.archive.org/web/20200829133418im_/https://i.imgur.com/8G8gZ5n.png" alt="" data-size="original">\
-
+<img src="https://web.archive.org/web/20200829133418im_/https://i.imgur.com/8G8gZ5n.png" alt="" data-size="original"><br>
 
 ## **Funktionskriterien**
 

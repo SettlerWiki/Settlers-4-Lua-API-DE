@@ -7,8 +7,7 @@ Um also euer Script auf Syntaxfehler zu überprüfen, geht am besten wie folgt v
 * Legt den Compiler im selben Ordner wie euer Script ab. (Ihr müsst also das Script in einer externen Datei haben!)
 * Öffnet die Kommandozeile ( **\[Win] + \[R]** und gebt dort "cmd" ein) und geht in das Verzeichnis eures Scripts und des Compilers. (Ordner wechseln macht ihr mit dem Befehle "cd")
 * Führt nun mithilfe der Exe euer Script aus:\
-  `luai.exe dateiname.lua`\
-
+  `luai.exe dateiname.lua`<br>
 
 **Weitere Beispiele zur Ausführung in der Kommandozeile**
 

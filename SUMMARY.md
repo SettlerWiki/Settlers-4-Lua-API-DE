@@ -24,7 +24,7 @@
   * [Verbesserte Zufallszahlen](tutorials/code-snippets/better-randomnumbers.md)
   * [Neue Minute angebrochen](tutorials/code-snippets/neue-minute-angebrochen.md)
   * [Round & Modulo](tutorials/code-snippets/round-and-modulo.md)
-  * [All Points in a circle (hexagon)](tutorials/code-snippets/all-points-in-a-circle-hexagon.md)
+  * [All Points in a circle/ring (hexagon)](tutorials/code-snippets/all-points-in-a-circle-hexagon.md)
   * [foreach\_ext](tutorials/code-snippets/foreach_ext.md)
   * [Textnachricht nur für einen Spieler](tutorials/code-snippets/textnachricht-nur-fuer-einen-spieler.md)
   * [Mehr als 8 Waren spawnen](tutorials/code-snippets/mehr-als-8-waren-spawnen.md)

@@ -42,4 +42,4 @@ function deleteallbuildings(partei)
 end
 ```
 
-**Erklärung**: Alle Gebäude haben eine Nummer von 1 bis 83, man läuft über alle Gebäudeeinträge und löscht die entsprechende Anzahl der jeweiligen Gebäude. Die Gründungsgebäude, Kleiner Turm , Großer Turm und Burg haben die Nummern 46,47 und 48 weshalb wir diese im unteren Beispiel überspringen.\
+**Erklärung**: Alle Gebäude haben eine Nummer von 1 bis 83, man läuft über alle Gebäudeeinträge und löscht die entsprechende Anzahl der jeweiligen Gebäude. Die Gründungsgebäude, Kleiner Turm , Großer Turm und Burg haben die Nummern 46,47 und 48 weshalb wir diese im unteren Beispiel überspringen.<br>

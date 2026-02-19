@@ -1,6 +1,6 @@
 # Siegbedingungen anpassen
 
-Ihr könnt für eure Karten selbst definierte Siegbedingungen schreiben. Das Spiel hat hierfür extra ein [spezielles Event](entrypoint-register\_functions-events-1.md), welches ähnlich wie **Events.FIVE\_TICKS** alle Fünf Ticks aufgerufen wird. Standartmäßig ist dieses Event jedoch von einer eigenen Funktion von Siedler belegt, welche ihr durch setzen dieses Events überschreibt.&#x20;
+Ihr könnt für eure Karten selbst definierte Siegbedingungen schreiben. Das Spiel hat hierfür extra ein [spezielles Event](entrypoint-register_functions-events-1.md), welches ähnlich wie **Events.FIVE\_TICKS** alle Fünf Ticks aufgerufen wird. Standartmäßig ist dieses Event jedoch von einer eigenen Funktion von Siedler belegt, welche ihr durch setzen dieses Events überschreibt.&#x20;
 
 Dies ist das normale Verhalten von Siedler im Bezug auf die Überprüfung ob wer gewonnen hat:
 
@@ -48,6 +48,5 @@ function VictoryConditionCheck()
 end
 ```
 
-\
-
+<br>
 

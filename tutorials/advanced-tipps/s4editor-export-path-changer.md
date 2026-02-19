@@ -8,4 +8,4 @@ description: by MuffinMario
 
 {% embed url="https://github.com/MuffinMario/S4ExportPathChanger" %}
 
-{% file src="../../.gitbook/assets/S4Editor_Export_Path_Changer.exe" %}
+{% file src="../../.gitbook/assets/S4Editor_Export_Path_Changer.zip" %}
