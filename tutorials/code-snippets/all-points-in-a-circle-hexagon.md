@@ -4,7 +4,7 @@ description: by MuffinMario
 
 # All Points in a circle/ring (hexagon)
 
-## circle(x, y, radius, func):                    ![](<../../.gitbook/assets/circle2 (1).png>)
+## circle(x, y, radius, func)                    ![](<../../.gitbook/assets/circle2 (1).png>)
 
 Führt die Funktion `func` auf der gesamten **Fläche** des Kreises (Hexagons) um die angegebenen Koordinaten im entsprechenden `radius` aus.
 
@@ -68,7 +68,7 @@ end
 
 
 
-## ring(x, y, radius, func):                       ![](<../../.gitbook/assets/ring2 (3).png>)
+## ring(x, y, radius, func)                       ![](<../../.gitbook/assets/ring2 (3).png>)
 
 Führt die Funktion `func` auf dem **Umkreis** (Hexagons) um die angegebenen Koordinaten im entsprechenden `radius` aus.
 
