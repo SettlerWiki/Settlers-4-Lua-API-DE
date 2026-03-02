@@ -248,6 +248,7 @@
   * [SU.Game.stm](su-library-functions/su.game/su.game.stm.md)
 * [SU.Goods](su-library-functions/su.goods/README.md)
   * [SU.Goods.AddPileEx](su-library-functions/su.goods/su.goods.addpileex.md)
+  * [SU.Goods.GetGoodsInArea](su-library-functions/su.goods/su.goods.getgoodsinarea.md)
 * [SU.Map](su-library-functions/su.map/README.md)
   * [SU.Map.DeleteAllDecoObjects](su-library-functions/su.map/su.map.deletealldecoobjects.md)
   * [SU.Map.GetEcoSector](su-library-functions/su.map/su.map.getecosector.md)
@@ -266,8 +267,11 @@
 * [SU.Settlers](su-library-functions/su.settlers/README.md)
   * [SU.Settlers.AddSettlersIfNeeded](su-library-functions/su.settlers/su.settlers.addsettlersifneeded.md)
   * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/su.settlers.addsettlerswithbeds.md)
+  * [SU.Settlers.GetSettlersInArea](su-library-functions/su.settlers/su.settlers.getsettlersinarea.md)
   * [SU.Settlers.SetHealthInArea](su-library-functions/su.settlers/su.settlers.sethealthinarea.md)
   * [SU.Settlers.SetHealthInAreaRelative](su-library-functions/su.settlers/su.settlers.sethealthinarearelative.md)
+* [SU.Vehicles](su-library-functions/su.vehicles/README.md)
+  * [SU.Vehicles.GetVehiclesInArea](su-library-functions/su.vehicles/su.vehicles.getvehiclesinarea.md)
 
 ## API Enums
 

@@ -8,6 +8,8 @@ description: 'SU Library: ab Version 0.6.0'
 
 Gibt die Entity-Ids der Gebäude im gegebenen Bereich zurück.
 
+Ist eine auf Gebäude limitierte Version von [su.entity.getentitiesinarea.md](../su.entity/su.entity.getentitiesinarea.md "mention").
+
 #### Parameter
 
 * `playerId`: ID des Spielers (1-8), Index 0 ungültig, -1 wenn keine Spieler gefiltert werden sollen
@@ -26,8 +28,10 @@ Gibt die Entity-Ids der Gebäude im gegebenen Bereich zurück.
 
 local buildings = SU.Buildings.GetBuildingsInArea(-1, -1, 115, 70, 10)
 <strong>-- Alle Gebäude bei 115/70 im Radius von 10
-</strong>    if type(buildings) == "table" then
-    	dbg.stm(getn(buildings)) -- Anzahl der Gebäude
+</strong>if type(buildings) == "table" then
+    local numBuildings = getn(buildings)
+    dbg.stm(numBuildings) -- Anzahl der Gebäude
+    if numBuildings > 0 then
     	dbg.stm(buildings[1]) -- Erster Eintrag der Id Liste
     end
 end
