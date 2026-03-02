@@ -4,9 +4,9 @@
 
 ```
 // building-states
-Buildings.UNDERCONSTRUCTION
-Buildings.READY
-Buildings.ALL
+Buildings.UNDERCONSTRUCTION = 0
+Buildings.READY = 1
+Buildings.ALL = 2
 ```
 
 #### SU Library

@@ -1,5 +1,5 @@
 ---
-description: 'SU Library: erst ab Version 0.4.0 verfügbar!'
+description: 'SU Library: ab Version 0.4.0'
 ---
 
 # SU.Axis

@@ -14,8 +14,8 @@ Gibt den Gebäude-Status des Gebäudes mit der angegebenen ID zurück.
 
 #### Rückgabewert
 
-* SU.Buildings.UNDERCONSTRUCTION: das Gebäude ist noch eine Baustelle
-* SU.Buildings.READY: das Gebäude ist fertiggestellt
+* Buildings.UNDERCONSTRUCTION (siehe [buildings.md](../../api-enums/buildings.md "mention"), =0): das Gebäude ist noch eine Baustelle
+* Buildings.READY (=1): das Gebäude ist fertiggestellt
 * -1: sonst / Fehler
 
 #### Beispiel

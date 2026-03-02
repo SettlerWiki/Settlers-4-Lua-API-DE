@@ -1,5 +1,5 @@
 ---
-description: 'SU Library: erst ab Version 0.6.1 verfügbar!'
+description: 'SU Library: ab Version 0.6.1'
 ---
 
 # SU.Game.SetFightingStrengthBaseValuePerNumberOfPlayers

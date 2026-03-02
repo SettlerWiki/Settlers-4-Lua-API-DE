@@ -1,5 +1,5 @@
 ---
-description: 'SU Library: erst ab Version 0.6.0 verfügbar!'
+description: 'SU Library: ab Version 0.6.0'
 ---
 
 # SU.Entity.SetHealth

@@ -3,7 +3,7 @@
 ## Tutorials
 
 * [Einführung](README.md)
-* [SU Library (0.6.3)](tutorials/su-library/README.md)
+* [SU Library (0.6.4)](tutorials/su-library/README.md)
   * [SUVars: mehr speicherbare Variablen](tutorials/su-library/suvars.md)
 * [Erste Schritte](tutorials/aller-anfang/README.md)
   * [Einrichtung & HelloWorld](tutorials/aller-anfang/installation-and-aufsetzen.md)
@@ -212,6 +212,8 @@
 * [SU.Entity](su-library-functions/su.entity/README.md)
   * [SU.Entity.GetBaseType](su-library-functions/su.entity/su.entity.getbasetype.md)
   * [SU.Entity.GetClass](su-library-functions/su.entity/su.entity.getclass.md)
+  * [SU.Entity.Delete](su-library-functions/su.entity/su.entity.delete.md)
+  * [SU.Entity.GetEntitiesInArea](su-library-functions/su.entity/su.entity.getentitiesinarea.md)
   * [SU.Entity.GetEntityType](su-library-functions/su.entity/su.entity.getentitytype.md)
   * [SU.Entity.GetHealth](su-library-functions/su.entity/su.entity.gethealth.md)
   * [SU.Entity.GetMaxHealth](su-library-functions/su.entity/su.entity.getmaxhealth.md)
