@@ -15,7 +15,7 @@ Setzt die durch die ID angegebene Baustelle entsprechenden auf (nicht) priorisie
 
 #### Rückgabewert
 
-* 1: Baustelle ist nun priorisiert oder war es schon
+* 1: Baustelle ist nun priorisiert (oder war es schon)
 * 0: sonst / Fehler
 
 #### Beispiel

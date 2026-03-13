@@ -8,13 +8,15 @@ description: 'SU Library: ab Version 0.2.0'
 
 Verändert die Priorisierung der durch die ID angegebenen Baustelle von ein auf aus und umgekehrt.
 
+Um den Status direkt zu setzen, verwende [buildings.delete.md](buildings.delete.md "mention").
+
 #### Parameter
 
 * `buildingID`: ID der Baustelle
 
 #### Rückgabewert
 
-* Priorisierungs-Status der Baustelle
+* Priorisierungs-Status der Baustelle (1 priorisiert)
 * -1: sonst / Fehler
 
 #### Beispiel

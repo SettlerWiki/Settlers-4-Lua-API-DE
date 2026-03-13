@@ -15,7 +15,7 @@ Setzt das durch die ID angegebene Gebäude entsprechenden auf (nicht) pausiert.
 
 #### Rückgabewert
 
-* 1: Gebäude ist nun pausiert oder war es schon
+* 1: Gebäude ist nun pausiert (oder war es schon)
 * 0: sonst / Fehler
 
 #### Beispiel
