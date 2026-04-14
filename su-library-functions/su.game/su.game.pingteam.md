@@ -4,7 +4,7 @@ description: 'SU Library: ab Version 0.2.0'
 
 # SU.Game.PingTeam
 
-## SU.Game.Ping(x, y, teamID\[, arrowDuration=15\[, minimapDuration=arrowDuration\[, msg\[, icon=8\[, lifetime\_s=120\[, x2, y2]]]]]])
+## SU.Game.PingTeam(x, y, teamID\[, arrowDuration=15\[, minimapDuration=arrowDuration\[, msg\[, icon=8\[, lifetime\_s=120\[, x2, y2]]]]]])
 
 Erzeugt einen Ping **nur für das angegebene Team** auf der Karte und Minimap und gibt optional eine Textnachricht aus, die standardmäßig den Bildschirm zu den Koordinaten `x, y` springen lässt.
 
@@ -19,7 +19,7 @@ Zusätzlich wird ein Sound abgespielt.
 
 
 
-## SU.Game.Ping(x, y, teamID\[, msg\[, icon=8\[, lifetime\_s=120\[, x, y]]]])
+## SU.Game.PingTeam(x, y, teamID\[, msg\[, icon=8\[, lifetime\_s=120\[, x, y]]]])
 
 Gleiche Funktion wie oben, nur mit anderen optionalen Parametern (hier gilt: `arrowDuration=minimapDuration=15`).
 
