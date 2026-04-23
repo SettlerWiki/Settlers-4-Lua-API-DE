@@ -29,7 +29,7 @@ Ist eine auf Fahrzeuge/Schiffe limitierte Version von [su.entity.getentitiesinar
 <pre class="language-lua"><code class="lang-lua">local vehicles, numVehicles = SU.Vehicles.GetVehiclesInArea(playerId, vehicleType, x, y, radius)
 
 local vehicles, numVehicles = SU.Vehicles.GetVehiclesInArea(-1, -1, 115, 70, 10)
-<strong>-- Alle Siedler bei 115/70 im Radius von 10
+<strong>-- Alle Fahrzeuge/Schiffe bei 115/70 im Radius von 10
 </strong>if numVehicles > 0 then
     dbg.stm(numVehicles) -- Anzahl der Fahrzeuge/Schiffe
    	dbg.stm(vehicles[1]) -- Erster Eintrag der Id Liste
