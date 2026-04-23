@@ -20,19 +20,18 @@ Ist eine auf Fahrzeuge/Schiffe limitierte Version von [su.entity.getentitiesinar
 
 #### Rückgabewert
 
-* LUA-Table von Entity-Ids der Fahrzeuge/Schiffe im Bereich
+* 1\. `lua-table` (Entity-IDs): Eine Lua-Tabelle der gefundenen Fahrzeug/Schiff-IDs.
+* 2\. `number` (Anzahl): Die Gesamtzahl der gefundenen Fahrzeuge/Schiffe.
+* **WICHTIG**: In Lua müssen **ALLE Rückgabewerte** explizit **Variablen zugewiesen werden**. Wird nur ein Wert (oder gar keiner) entgegengenommen, führt dies **beim Verlassen** der Karte oft zum **Absturz des Spiels**. Dies gilt für alle Funktionen.
 
 #### Beispiel
 
-<pre class="language-lua"><code class="lang-lua">local vehicles = SU.Vehicles.GetVehiclesInArea(playerId, vehicleType, x, y, radius)
+<pre class="language-lua"><code class="lang-lua">local vehicles, numVehicles = SU.Vehicles.GetVehiclesInArea(playerId, vehicleType, x, y, radius)
 
-local vehicles = SU.Vehicles.GetVehiclesInArea(-1, -1, 115, 70, 10)
+local vehicles, numVehicles = SU.Vehicles.GetVehiclesInArea(-1, -1, 115, 70, 10)
 <strong>-- Alle Siedler bei 115/70 im Radius von 10
-</strong>if type(vehicles) == "table" then
-    local numVehicles = getn(vehicles)
+</strong>if numVehicles > 0 then
     dbg.stm(numVehicles) -- Anzahl der Fahrzeuge/Schiffe
-    if numVehicles > 0 then
-    	dbg.stm(vehicles[1]) -- Erster Eintrag der Id Liste
-    end
+   	dbg.stm(vehicles[1]) -- Erster Eintrag der Id Liste
 end
 </code></pre>

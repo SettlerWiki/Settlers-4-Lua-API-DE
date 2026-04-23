@@ -18,21 +18,20 @@ Ist eine auf Gebäude limitierte Version von [su.entity.getentitiesinarea.md](..
 * `y`: y-Koordinate des Bereichs
 * `radius`: Radius des Bereichs
 
-#### Rückgabewert
+#### Rückgabewerte
 
-* LUA-Table von Entity-Ids der Gebäude im Bereich
+* 1\. `lua-table` (Entity-IDs): Eine Lua-Tabelle der gefundenen Gebäude-IDs.
+* 2\. `number` (Anzahl): Die Gesamtzahl der gefundenen Gebäude.
+* **WICHTIG**: In Lua müssen **ALLE Rückgabewerte** explizit **Variablen zugewiesen werden**. Wird nur ein Wert (oder gar keiner) entgegengenommen, führt dies **beim Verlassen** der Karte oft zum **Absturz des Spiels**. Dies gilt für alle Funktionen.
 
 #### Beispiel
 
-<pre class="language-lua"><code class="lang-lua">local buildings = SU.Buildings.GetBuildingsInArea(playerId, buildingType, x, y, radius)
+<pre class="language-lua"><code class="lang-lua">local buildings, numBuildings = SU.Buildings.GetBuildingsInArea(playerId, buildingType, x, y, radius)
 
-local buildings = SU.Buildings.GetBuildingsInArea(-1, -1, 115, 70, 10)
+local buildings, numBuildings = SU.Buildings.GetBuildingsInArea(-1, -1, 115, 70, 10)
 <strong>-- Alle Gebäude bei 115/70 im Radius von 10
-</strong>if type(buildings) == "table" then
-    local numBuildings = getn(buildings)
+</strong>if numBuildings > 0 then
     dbg.stm(numBuildings) -- Anzahl der Gebäude
-    if numBuildings > 0 then
-    	dbg.stm(buildings[1]) -- Erster Eintrag der Id Liste
-    end
+    dbg.stm(buildings[1]) -- Erster Eintrag der Id Liste
 end
 </code></pre>

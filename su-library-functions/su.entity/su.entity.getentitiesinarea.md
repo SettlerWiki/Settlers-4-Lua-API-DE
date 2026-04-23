@@ -18,19 +18,18 @@ Gibt die Entity-Ids der Entitäten im gegebenen Bereich zurück.
 
 #### Rückgabewert
 
-* LUA-Table von Entity-Ids der Entitäten im Bereich
+* 1\. `lua-table` (Entity-IDs): Eine Lua-Tabelle der gefundenen Entity-IDs.
+* 2\. `number` (Anzahl): Die Gesamtzahl der gefundenen Entitäten.
+* **WICHTIG**: In Lua müssen **ALLE Rückgabewerte** explizit **Variablen zugewiesen werden**. Wird nur ein Wert (oder gar keiner) entgegengenommen, führt dies **beim Verlassen** der Karte oft zum **Absturz des Spiels**. Dies gilt für alle Funktionen.
 
 #### Beispiel
 
-<pre class="language-lua"><code class="lang-lua">local entities = SU.Entity.GetEntitiesInArea(playerId, entityType, x, y, radius)
+<pre class="language-lua"><code class="lang-lua">local entities, numEntities = SU.Entity.GetEntitiesInArea(playerId, entityType, x, y, radius)
 
-local entities = SU.Entity.GetEntitiesInArea(-1, -1, 115, 70, 10)
+local entities, numEntities = SU.Entity.GetEntitiesInArea(-1, -1, 115, 70, 10)
 <strong>-- Alle Entitäten bei 115/70 im Radius von 10
-</strong>if type(entities) == "table" then
-    local numEntities = getn(entities)
+</strong>if numEntities > 0 then
     dbg.stm(numEntities) -- Anzahl der Entitäten
-    if numEntities > 0 then
-    	dbg.stm(entities[1]) -- Erster Eintrag der Id Liste
-    end
+    dbg.stm(entities[1]) -- Erster Eintrag der Id Liste
 end
 </code></pre>
