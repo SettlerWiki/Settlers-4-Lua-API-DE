@@ -1,6 +1,6 @@
 # Magic.CastSpell
 
-## `Magic.CastSpell(Spieler, Volk, Zauber, x, y,)`
+## `Magic.CastSpell(Spieler, Volk, Zauber, x, y)`
 
 Bewirkt den angegebenen Zauber an der angegebenen Stelle durch den angegebenen Spieler. Der Spieler darf noch nicht besiegt worden sein. Mit Volk ist die Nummer gemeint - 0 für Römer, 1 für Wikinger, 2 für Maya, 3 für das Dunkle Volk, 4 für Trojaner. Negative Werte führen dazu, dass die Standardzauber des Volkes genutzt werden. Auf diese Weise können sogar Zauber von Völkern genutzt werden, die auf der Karte nicht anwesend sind. Zauber werden entweder durch die Zahlen 0-7 (basierend auf ihrer Reihenfolge im Menü) oder durch ihren internen Namen ausgewählt:
 
