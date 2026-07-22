@@ -2,7 +2,7 @@
 
 ## `Buildings.CrushBuilding(ID)`
 
-Reißt ein Gebäude ab. Dies kann unter anderem genutzt werden, um den Spieler am Bau bestimmter Gebäude zu hindern.
+Reißt ein Gebäude ab. Dies kann unter anderem genutzt werden, um den Spieler am Bau bestimmter Gebäude zu hindern, denn bereits die Baustelle eines Gebäudes kann damit zerstört werden. Dabei werden 50% der Rohstoffe(bei Kommazahlen wird abgerundet) eines fertigen Gebäudes erstattet und die Insassen überleben den Abriss.
 
 #### Rückgabewert
 
