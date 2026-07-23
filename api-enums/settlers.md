@@ -19,9 +19,6 @@ Settlers.NO_SETTLER
 
 Settlers.AGAVEFARMER
 Settlers.AMMOMAKER
-Settlers.ANGEL_01 // Do not try to add(with Settlers.AddSettlers for example) any of these Angels because the game will crash.
-Settlers.ANGEL_02
-Settlers.ANGEL_03
 Settlers.AXEWARRIOR_01
 Settlers.AXEWARRIOR_02
 Settlers.AXEWARRIOR_03
@@ -104,7 +101,7 @@ Settlers.ALK_FULLBASKET
 Settlers.AMMER
 Settlers.AMMO
 Settlers.AMMOMAKER
-Settlers.ANGEL_01
+Settlers.ANGEL_01 // Do not try to add (with Settlers.AddSettlers for example) any of these Angels because the game will crash.
 Settlers.ANGEL_02
 Settlers.ANGEL_03
 Settlers.ANIMAL

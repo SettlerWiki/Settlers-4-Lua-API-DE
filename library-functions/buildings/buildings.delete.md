@@ -2,11 +2,11 @@
 
 ## `Buildings.Delete(ID, Löschtyp)`
 
-Löscht ein Gebäude. Anders als bei CrushBuilding kann die Erstattung der Rohstoffe verhindert werden, aber etwaige Siedler überleben ebenfalls wie bei CrushBuilding. Löschtypen scheinen zu sein:&#x20;
+Löscht ein Gebäude. Anders als bei CrushBuilding kann die Erstattung der Rohstoffe verhindert werden. Siedler überleben.
 
-<table><thead><tr><th width="252.57142857142856"></th><th></th></tr></thead><tbody><tr><td>0</td><td>Stehen lassen</td></tr><tr><td>1</td><td>Abreißen   (wie CrushBuilding) </td></tr><tr><td>2</td><td>Zerstören </td></tr></tbody></table>
+<table><thead><tr><th width="252.57142857142856">Löschtyp</th><th>Beschreibung</th></tr></thead><tbody><tr><td>0</td><td>Stehen lassen</td></tr><tr><td>1</td><td>Abreißen (wie <a data-mention href="buildings.crushbuilding.md">buildings.crushbuilding.md</a>, 50% Ressourcen)</td></tr><tr><td>2</td><td>Zerstören (<strong>keine</strong> Ressourcen)</td></tr></tbody></table>
 
-Werte darüber verhalten sich wie eine 0.
+Werte darüber verhalten sich wie 0.
 
 #### Rückgabewert
 
