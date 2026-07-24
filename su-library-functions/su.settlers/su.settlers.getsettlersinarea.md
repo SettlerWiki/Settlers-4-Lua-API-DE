@@ -1,10 +1,10 @@
 ---
-description: 'SU Library: ab Version 0.6.4'
+description: 'SU Library: ab Version 0.7.0'
 ---
 
 # SU.Settlers.GetSettlersInArea
 
-## SU.Settlers.GetSettlersInArea(playerId, settlerType, x, y, radius)
+## SU.Settlers.GetSettlersInArea(settlerIDs, playerID, settlerType, x, y, radius)
 
 Gibt die Entity-Ids der Siedler im gegebenen Bereich zurück.
 
@@ -12,6 +12,7 @@ Ist eine auf Siedler limitierte Version von [su.entity.getentitiesinarea.md](../
 
 #### Parameter
 
+* `settlerIDs`: **Ziel-Tabelle**: Eine vor dem Funktionsaufruf erstellte Tabelle (z. B. `local settlerIDs = {}`, siehe Beispiel unten), die dann von dieser Funktion mit den gefundenen Entity-IDs befüllt wird. **Achtung**: Bereits enthaltene Daten in dieser Tabelle werden dabei überschrieben!
 * `playerId`: ID des Spielers (1-8), Index 0 ungültig, -1 wenn keine Spieler gefiltert werden sollen
 * `settlerType`: [settlers.md](../../api-enums/settlers.md "mention") , -1 wenn keine Siedler-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
@@ -20,18 +21,19 @@ Ist eine auf Siedler limitierte Version von [su.entity.getentitiesinarea.md](../
 
 #### Rückgabewert
 
-* 1\. `lua-table` (Entity-IDs): Eine Lua-Tabelle der gefundenen Siedler-IDs.
-* 2\. `number` (Anzahl): Die Gesamtzahl der gefundenen Siedler.
-* **WICHTIG**: In Lua müssen **ALLE Rückgabewerte** explizit **Variablen zugewiesen werden**. Wird nur ein Wert (oder gar keiner) entgegengenommen, führt dies **beim Verlassen** der Karte oft zum **Absturz des Spiels**. Dies gilt für alle Funktionen.
+* `number` (Anzahl): Die Gesamtzahl der gefundenen Siedler.
+* **Hinweis**_:_ Die eigentlichen Entity-IDs werden nicht als Rückgabewert geliefert, sondern direkt in die als ersten Parameter übergebene Ziel-Tabelle geschrieben.
 
 #### Beispiel
 
-<pre class="language-lua"><code class="lang-lua">local settlers, numSettlers = SU.Settlers.GetSettlersInArea(playerId, settlerType, x, y, radius)
+<pre class="language-lua"><code class="lang-lua">local settlerIDs = {}    -- oder einmalig global definiert
+local settlers, numSettlers = SU.Settlers.GetSettlersInArea(settlerIDs, playerID, settlerType, x, y, radius)
 
-local settlers, numSettlers = SU.Settlers.GetSettlersInArea(-1, -1, 115, 70, 10)
+local settlerIDs = {}    -- oder einmalig global definiert
+local numSettlers = SU.Settlers.GetSettlersInArea(settlerIDs, -1, -1, 115, 70, 10)
 <strong>-- Alle Siedler bei 115/70 im Radius von 10
 </strong>if numSettlers > 0 then
     dbg.stm(numSettlers) -- Anzahl der Siedler
-    dbg.stm(settlers[1]) -- Erster Eintrag der Id Liste
+    dbg.stm(settlerIDs[1]) -- Erster Eintrag der Id Liste
 end
 </code></pre>

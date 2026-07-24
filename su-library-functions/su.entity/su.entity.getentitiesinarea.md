@@ -1,16 +1,17 @@
 ---
-description: 'SU Library: ab Version 0.6.4'
+description: 'SU Library: ab Version 0.7.0'
 ---
 
 # SU.Entity.GetEntitiesInArea
 
-## SU.Entity.GetEntitiesInArea(playerId, entityType, x, y, radius)
+## SU.Entity.GetEntitiesInArea(entityIDs, playerID, entityType, x, y, radius)
 
-Gibt die Entity-Ids der Entitäten im gegebenen Bereich zurück.
+Gibt die Entity-IDs der Entitäten im gegebenen Bereich zurück.
 
 #### Parameter
 
-* `playerId`: ID des Spielers (1-8), Index 0 ungültig, -1 wenn keine Spieler gefiltert werden sollen
+* `entityIDs`: **Ziel-Tabelle**: Eine vor dem Funktionsaufruf erstellte Tabelle (z. B. `local entityIDs = {}`, siehe Beispiel unten), die dann von dieser Funktion mit den gefundenen Entity-IDs befüllt wird. **Achtung**: Bereits enthaltene Daten in dieser Tabelle werden dabei überschrieben!
+* `playerID`: ID des Spielers (1-8), Index 0 ungültig, -1 wenn keine Spieler gefiltert werden sollen
 * `entityType`: [su.entitytypes.md](../../su-api-enums/su.entitytypes.md "mention") , -1 wenn keine Entity-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
@@ -18,18 +19,19 @@ Gibt die Entity-Ids der Entitäten im gegebenen Bereich zurück.
 
 #### Rückgabewert
 
-* 1\. `lua-table` (Entity-IDs): Eine Lua-Tabelle der gefundenen Entity-IDs.
-* 2\. `number` (Anzahl): Die Gesamtzahl der gefundenen Entitäten.
-* **WICHTIG**: In Lua müssen **ALLE Rückgabewerte** explizit **Variablen zugewiesen werden**. Wird nur ein Wert (oder gar keiner) entgegengenommen, führt dies **beim Verlassen** der Karte oft zum **Absturz des Spiels**. Dies gilt für alle Funktionen.
+* `number` (Anzahl): Die Gesamtzahl der gefundenen Entitäten.
+* **Hinweis**_:_ Die eigentlichen Entity-IDs werden nicht als Rückgabewert geliefert, sondern direkt in die als ersten Parameter übergebene Ziel-Tabelle geschrieben.
 
 #### Beispiel
 
-<pre class="language-lua"><code class="lang-lua">local entities, numEntities = SU.Entity.GetEntitiesInArea(playerId, entityType, x, y, radius)
+<pre class="language-lua"><code class="lang-lua">local entityIDs = {}    -- oder einmalig global definiert
+local numEntities = SU.Entity.GetEntitiesInArea(entityIDs, playerID, entityType, x, y, radius)
 
-local entities, numEntities = SU.Entity.GetEntitiesInArea(-1, -1, 115, 70, 10)
+local entityIDs = {}    -- oder einmalig global definiert
+local numEntities = SU.Entity.GetEntitiesInArea(entityIDs, -1, -1, 115, 70, 10)
 <strong>-- Alle Entitäten bei 115/70 im Radius von 10
 </strong>if numEntities > 0 then
     dbg.stm(numEntities) -- Anzahl der Entitäten
-    dbg.stm(entities[1]) -- Erster Eintrag der Id Liste
+    dbg.stm(entityIDs[1]) -- Erster Eintrag der Id Liste
 end
 </code></pre>
