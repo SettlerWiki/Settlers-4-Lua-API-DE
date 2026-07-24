@@ -4,7 +4,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 # SU.Buildings.GetBuildingsInArea
 
-## SU.Buildings.GetBuildingsInArea(buildingIDs, playerID, buildingType, x, y, radius)
+## SU.Buildings.GetBuildingsInArea(buildingIDs, playerID, buildingType, x, y, radius, buildingState=Buildings.ALL)
 
 Gibt die Entity-IDs der Gebäude (sowohl fertige als auch Baustellen) im gegebenen Bereich zurück.
 
@@ -18,6 +18,7 @@ Ist eine auf Gebäude limitierte Version von [su.entity.getentitiesinarea.md](..
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
 * `radius`: Radius des Bereichs
+* `buildingState` (optional): Gebäudestatus nach dem gesucht werden soll (siehe [buildings.md](../../api-enums/buildings.md "mention"))
 
 #### Rückgabewerte
 
