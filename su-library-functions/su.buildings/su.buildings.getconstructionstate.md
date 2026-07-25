@@ -1,25 +1,20 @@
 ---
-description: 'SU Library: ab Version 0.2.0'
+description: 'SU Library: ab Version 0.7.0'
 ---
 
-# SU.Buildings.GetConstructionState
+# SU.Buildings.GetActiveBuildingPlacement
 
-## SU.Buildings.GetConstructionState(buildingID)
+## SU.Buildings.GetActiveBuildingPlacement()
 
-Gibt den Gebäude-Status des Gebäudes mit der angegebenen ID zurück.
-
-#### Parameter
-
-* `buildingID`: ID des Gebäudes
+Gibt den Gebäude-Typ des aktuell im Menü ausgewählten Gebäudes zurück, während es auf der Karte platziert werden kann.
 
 #### Rückgabewert
 
-* Buildings.UNDERCONSTRUCTION (siehe [buildings.md](../../api-enums/buildings.md "mention"), =0): das Gebäude ist noch eine Baustelle
-* Buildings.READY (=1): das Gebäude ist fertiggestellt
-* -1: sonst / Fehler
+* Gebäude-Typ [buildings.md](../../api-enums/buildings.md "mention")
+* 0: sonst (nicht aktiv) / Fehler
 
 #### Beispiel
 
 ```lua
-local buildingState = SU.Buildings.GetConstructionState(buildingID)
+local buildingType = SU.Buildings.GetActiveBuildingPlacement()
 ```

@@ -6,7 +6,8 @@ description: 'SU Library: ab Version 0.6.4'
 
 ## SU.Entity.Delete(entityID)
 
-Löscht/Zerstört die angegebene Entität (**beschränkt** auf: Gebäude, Siedler, Schiffe und Fahrzeuge) mit Sterbeanimation.
+Löscht/Zerstört die angegebene Entität (**beschränkt** auf: Gebäude, Siedler, Schiffe und Fahrzeuge) mit Sterbeanimation. Bei Gebäuden werden **keine Rohstoffe zurückerstattet**.\
+⇒ Um Deko-/Objekte zu löschen: [map.deletedecoobject.md](../../library-functions/map/map.deletedecoobject.md "mention")
 
 Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h. **Objekte, Siedler, Gebäude, Fahrzeuge, Warenstapel, Tiere, etc.**, für Mapper also **quasi alles Auswählbare** (und noch mehr).
 

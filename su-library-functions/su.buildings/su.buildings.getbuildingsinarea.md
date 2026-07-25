@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Gibt die Entity-IDs der Gebäude (sowohl fertige als auch Baustellen) im gegebenen Bereich zurück.
 
-Ist eine auf Gebäude limitierte Version von [su.entity.getentitiesinarea.md](../su.entity/su.entity.getentitiesinarea.md "mention").
+Ist eine auf Gebäude limitierte Version von [su.entity.getentitiesinarea-1.md](../su.entity/su.entity.getentitiesinarea-1.md "mention").
 
 #### Parameter
 
