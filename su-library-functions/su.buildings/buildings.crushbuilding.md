@@ -12,7 +12,7 @@ Dies kann unter anderem genutzt werden, um den Spieler am Bau bestimmter Gebäud
 
 #### Parameter
 
-* `playerID [1-8]`: Spieler-ID, **Index 0 ist ungültig!**
+* `playerID`: ID des Spielers (1-8), Index 0 ungültig, -1 wenn keine Spieler gefiltert werden sollen
 * `buildingType`: [buildings.md](../../api-enums/buildings.md "mention")
 * `x, y`: Koordinaten
 * `radius [0-74]`: Radius

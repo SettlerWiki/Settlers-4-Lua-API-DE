@@ -11,5 +11,5 @@ Kampfkraft
 #### Beispiel
 
 ```lua
-Game.GetOffenceFightingStrength(1)
+local offFightingStrength = Game.GetOffenceFightingStrength(1)
 ```
