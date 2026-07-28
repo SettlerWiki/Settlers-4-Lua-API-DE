@@ -14,9 +14,9 @@ Gibt die Entity-IDs der aktuell ausgewählten Entitäten zurück.
 **Andere limitierte Versionen** sind:
 
 * [su.buildings.getbuildingsinarea-1.md](../su.buildings/su.buildings.getbuildingsinarea-1.md "mention")
-* goods - folgt demnächst...
-* settlers - folgt demnächst...
-* vehicles - folgt demnächst...
+* [su.entity.getentitiesinarea.md](../su.game/su.entity.getentitiesinarea.md "mention")
+* [su.entity.getentitiesinarea.md](../su.settlers/su.entity.getentitiesinarea.md "mention")
+* [su.entity.getentitiesinarea.md](../su.vehicles/su.entity.getentitiesinarea.md "mention")
 
 #### Parameter
 

@@ -14,9 +14,9 @@ Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h.
 **Andere limitierte Versionen** sind:
 
 * [buildings.crushbuilding-1.md](../su.buildings/buildings.crushbuilding-1.md "mention")
-* DeleteGoodsInArea - folgt demnächst...
-* DeleteSettlersInArea - folgt demnächst...
-* DeleteVehiclesInArea - folgt demnächst...
+* [buildings.crushbuilding.md](../su.goods/buildings.crushbuilding.md "mention")
+* [buildings.crushbuilding.md](../su.settlers/buildings.crushbuilding.md "mention")
+* [buildings.crushbuilding.md](../su.vehicles/buildings.crushbuilding.md "mention")
 
 #### Notiz
 

@@ -298,6 +298,8 @@
 * [SU.Settlers](su-library-functions/su.settlers/README.md)
   * [SU.Settlers.AddSettlersIfNeeded](su-library-functions/su.settlers/su.settlers.addsettlersifneeded.md)
   * [SU.Settlers.AddSettlersWithBeds](su-library-functions/su.settlers/su.settlers.addsettlerswithbeds.md)
+  * [SU.Settlers.DeleteSettlersInArea](su-library-functions/su.settlers/buildings.crushbuilding.md)
+  * [SU.Settlers.GetSelection](su-library-functions/su.settlers/su.entity.getentitiesinarea.md)
   * [SU.Settlers.GetSettlersInArea](su-library-functions/su.settlers/su.settlers.getsettlersinarea.md)
   * [SU.Settlers.SetHealthInArea](su-library-functions/su.settlers/su.settlers.sethealthinarea.md)
   * [SU.Settlers.SetHealthInAreaRelative](su-library-functions/su.settlers/su.settlers.sethealthinarearelative.md)
