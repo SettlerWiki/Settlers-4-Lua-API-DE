@@ -10,7 +10,7 @@ Gibt die Sielder-IDs der aktuell ausgewählten Entitäten zurück.\
 ⇒ ist eine auf Siedler limitierte Version von [su.entity.getselection.md](../su.entity/su.entity.getselection.md "mention").
 
 **Achtung**: funktioniert nur beim **lokalen Spieler**!\
-⇒ **Desync-Gefahr** wenn im Folgenden mit **lokalen Funktionen** das Spiel beeinflusst wird (siehe [place-buildings-1.md](../../tutorials/advanced-tipps/place-buildings-1.md "mention")).
+⇒ **Desync-Gefahr** wenn im Folgenden mit **lokalen Funktionen** das Spiel beeinflusst wird (siehe [lokale-vs-netzwerk-funktionen.md](../../tutorials/advanced-tipps/lokale-vs-netzwerk-funktionen.md "mention")).
 
 #### Parameter
 

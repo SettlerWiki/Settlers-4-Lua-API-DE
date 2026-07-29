@@ -17,7 +17,7 @@ Dies kann unter anderem genutzt werden, um den Spieler am Bau bestimmter Gebäud
 * `x, y`: Koordinaten
 * `radius [0-74]`: Radius
 * `buildingState` (optional): Gebäudestatus der abgerissen werden soll ( [buildings.md](../../api-enums/buildings.md "mention") )
-* `buildingDestroyMode` (optional): 0 nichts passiert, 1 wie [buildings.crushbuilding.md](buildings.crushbuilding.md "mention") (gibt Rohstoffe zurück), 2 wie [buildings.delete.md](../../library-functions/buildings/buildings.delete.md "mention") (keine Rohstoffe)
+* `buildingDestroyMode` (optional): 0 nichts passiert, 1 wie [su.buildings.crushbuildingsinarea.md](su.buildings.crushbuildingsinarea.md "mention") (gibt Rohstoffe zurück), 2 wie [buildings.delete.md](../../library-functions/buildings/buildings.delete.md "mention") (keine Rohstoffe)
 * `killInhabitantsAndWorker` (optional): bei 1 werden Insassen (Soldaten) und Arbeiter des Gebäudes (auch wenn sie gerade außerhalb sind) getötet
 
 #### Rückgabewert

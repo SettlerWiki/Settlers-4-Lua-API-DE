@@ -9,12 +9,12 @@ description: 'SU Library: ab Version 0.7.0'
 Gibt die Entity-IDs der aktuell ausgewählten Entitäten zurück.
 
 **Achtung**: funktioniert nur beim **lokalen Spieler**!\
-⇒ **Desync-Gefahr** wenn im Folgenden mit **lokalen Funktionen** das Spiel beeinflusst wird (siehe [place-buildings-1.md](../../tutorials/advanced-tipps/place-buildings-1.md "mention")).
+⇒ **Desync-Gefahr** wenn im Folgenden mit **lokalen Funktionen** das Spiel beeinflusst wird (siehe [lokale-vs-netzwerk-funktionen.md](../../tutorials/advanced-tipps/lokale-vs-netzwerk-funktionen.md "mention")).
 
 **Andere limitierte Versionen** sind:
 
 * [su.buildings.getselection.md](../su.buildings/su.buildings.getselection.md "mention")
-* [su.entity.getentitiesinarea.md](../su.game/su.entity.getentitiesinarea.md "mention")
+* [su.game.getselection.md](../su.game/su.game.getselection.md "mention")
 * [su.settlers.getselection.md](../su.settlers/su.settlers.getselection.md "mention")
 * [su.vehicles.getselection.md](../su.vehicles/su.vehicles.getselection.md "mention")
 

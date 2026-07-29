@@ -16,8 +16,8 @@ Fügt den angegebenen Effekt hinzu. Anders als bei [effects.addeffect.md](../../
 
 * `effectID`: [effects.md](../../api-enums/effects.md "mention")
 * `x, y`: Koordinaten
-* `delayTicks`: Verzögerung in Ticks (siehe [su.roleclasses-1.md](../../su-api-enums/su.roleclasses-1.md "mention"))
-* `durationTicks` (optional): Dauer in Ticks (siehe [su.roleclasses-1.md](../../su-api-enums/su.roleclasses-1.md "mention"))
+* `delayTicks`: Verzögerung in Ticks (siehe [su.time.md](../../su-api-enums/su.time.md "mention"))
+* `durationTicks` (optional): Dauer in Ticks (siehe [su.time.md](../../su-api-enums/su.time.md "mention"))
 * `soundID` (optional): [sounds.md](../../api-enums/sounds.md "mention")
 * `playSoundEverywhere` (optional): bei 1 wird der Sound abgespielt, egal wo der Bildschirm gerade ist - mit Vorsicht zu genießen!
 

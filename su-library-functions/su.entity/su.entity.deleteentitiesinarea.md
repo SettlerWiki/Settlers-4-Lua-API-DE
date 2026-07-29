@@ -14,7 +14,7 @@ Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h.
 **Andere limitierte Versionen** sind:
 
 * [su.buildings.deletebuildingsinarea.md](../su.buildings/su.buildings.deletebuildingsinarea.md "mention")
-* [buildings.crushbuilding.md](../su.goods/buildings.crushbuilding.md "mention")
+* [su.goods.deletegoodsinarea.md](../su.goods/su.goods.deletegoodsinarea.md "mention")
 * [su.settlers.deletesettlersinarea.md](../su.settlers/su.settlers.deletesettlersinarea.md "mention")
 * [su.vehicles.deletevehiclesinarea.md](../su.vehicles/su.vehicles.deletevehiclesinarea.md "mention")
 
