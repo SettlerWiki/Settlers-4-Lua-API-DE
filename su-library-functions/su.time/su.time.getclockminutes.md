@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Gibt die Minutenanzahl **der Uhr** rechts oben zurück
 
-⇒ siehe [su.map.getheight-4.md](su.map.getheight-4.md "mention")
+⇒ siehe [su.time.gettotalminutes.md](su.time.gettotalminutes.md "mention")
 
 #### Parameter
 

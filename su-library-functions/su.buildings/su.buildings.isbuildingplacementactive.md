@@ -6,7 +6,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 ## SU.Buildings.IsBuildingPlacementActive()
 
-Zeigt an, ob gerade die Gebäude-Platzierung aktiviert ist, nachdem ein Gebäude im Menü/per Hotkey ausgewählt wurde (siehe auch [su.buildings.getconstructionstate.md](su.buildings.getconstructionstate.md "mention")).
+Zeigt an, ob gerade die Gebäude-Platzierung aktiviert ist, nachdem ein Gebäude im Menü/per Hotkey ausgewählt wurde (siehe auch [su.buildings.getactivebuildingplacement.md](su.buildings.getactivebuildingplacement.md "mention")).
 
 #### Rückgabewerte
 

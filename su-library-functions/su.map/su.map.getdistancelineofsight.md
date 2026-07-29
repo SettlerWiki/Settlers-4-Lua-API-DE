@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Liefert die **Luftlinien**-Distanz zwischen 2 Punkten (die Richtung ist egal).
 
-⇒ siehe auch [su.map.deletealldecoobjects-6.md](su.map.deletealldecoobjects-6.md "mention")
+⇒ siehe auch [su.map.getdistancepath.md](su.map.getdistancepath.md "mention")
 
 #### Parameter
 

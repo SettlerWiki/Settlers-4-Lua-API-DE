@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Gibt die Entity-IDs der Waren im gegebenen Bereich zurück.
 
-Ist eine auf Waren limitierte Version von [su.entity.getentitiesinarea-1.md](../su.entity/su.entity.getentitiesinarea-1.md "mention").
+Ist eine auf Waren limitierte Version von [su.entity.getentitiesinarea.md](../su.entity/su.entity.getentitiesinarea.md "mention").
 
 #### Parameter
 

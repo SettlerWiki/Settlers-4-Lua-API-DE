@@ -7,7 +7,7 @@ description: 'SU Library: ab Version 0.7.0'
 ## SU.Buildings.GetSelection()
 
 Gibt die Entity-ID des aktuell ausgewählten Gebäudes zurück (sowohl von fertigen als auch von Baustellen).\
-⇒ ist eine auf Gebäude limitierte Version von [su.entity.getentitiesinarea-2.md](../su.entity/su.entity.getentitiesinarea-2.md "mention").
+⇒ ist eine auf Gebäude limitierte Version von [su.entity.getselection.md](../su.entity/su.entity.getselection.md "mention").
 
 **Achtung**: funktioniert nur beim **lokalen Spieler**!\
 ⇒ **Desync-Gefahr** wenn im Folgenden mit **lokalen Funktionen** das Spiel beeinflusst wird (siehe [place-buildings-1.md](../../tutorials/advanced-tipps/place-buildings-1.md "mention")).

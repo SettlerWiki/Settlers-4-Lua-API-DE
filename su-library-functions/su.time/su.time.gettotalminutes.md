@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Gibt die Spielzeit in Minuten zurück.
 
-⇒ siehe [su.map.getheight-1.md](su.map.getheight-1.md "mention")
+⇒ siehe [su.time.getclockminutes.md](su.time.getclockminutes.md "mention")
 
 #### Parameter
 

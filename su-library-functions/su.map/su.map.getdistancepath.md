@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Liefert die **Weg**-Distanz zwischen 2 Punkten, die ein Siedler brauchen würde um von P1 nach P2 zu gelangen (die Richtung ist egal).
 
-⇒ siehe auch [su.map.deletealldecoobjects-5.md](su.map.deletealldecoobjects-5.md "mention")
+⇒ siehe auch [su.map.getdistancelineofsight.md](su.map.getdistancelineofsight.md "mention")
 
 #### Parameter
 

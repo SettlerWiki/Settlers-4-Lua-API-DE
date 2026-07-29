@@ -1,27 +1,28 @@
 ---
-description: 'SU Library: ab Version 0.7.0'
+description: 'SU Library: ab Version 0.2.0'
 ---
 
-# SU.Game.GetStartingPosition
+# SU.Game.IsCurrentlyOnScreen
 
-## SU.Game.GetStartingPosition(playerID)
+## SU.Game.IsCurrentlyOnScreen(guiElement)
 
-Gibt die Start-Position zurück.
+Überprüft, ob das angegebene GUI-Element aktuell am Bildschirm des lokalen Spielers ist.
 
-**Achtung: funktioniert NICHT in "new\_game"!**\
-⇒ stattdessen **"**&#x45;vents.FIRST\_TICK\_OF\_NEW\_GAME" o.ä. (siehe [request\_event](https://app.gitbook.com/s/auUjVOZHHg4G6b8lVuXs/library-functions/global-functions/request_event "mention"))
+#### Notiz
+
+* da das Lua-Skript nur direkt im Spiel und nicht in den Menüs davor läuft, machen nur alle "SU.GUIElements.**MENU**\_XXX" Variablen Sinn.
 
 #### Parameter
 
-* `playerID [1-8]`: Spieler-ID, **Index 0 ist ungültig!**
+* `guiElement`: [su.guielements.md](../../su-api-enums/su.guielements.md "mention")
 
 #### Rückgabewert
 
-* `x, y`: Start-Position
-* `0,0` oder `-1,-1`: sonst / Fehler
+* 1: `guiElement` ist am Bildschirm
+* 0: sonst / Fehler
 
 #### Beispiel
 
 ```lua
-local x, y = SU.Game.GetStartingPosition(3)    -- Start-Position von Spieler 3
+local isOnScreen = SU.Game.IsCurrentlyOnScreen(SU.GUIElements.MENU_BUILDINGS_FOOD)
 ```

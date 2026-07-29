@@ -1,23 +1,25 @@
 ---
-description: 'SU Library: ab Version 0.7.0'
+description: 'SU Library: ab Version 0.2.0'
 ---
 
-# SU.Buildings.GetActiveBuildingPlacement
+# SU.Buildings.GetConstructionState
 
-## SU.Buildings.GetActiveBuildingPlacement()
+## SU.Buildings.GetConstructionState(buildingID)
 
-Gibt den Gebäude-Typ des aktuell im Menü ausgewählten Gebäudes zurück, während es auf der Karte platziert werden kann.
+Gibt den Gebäude-Status des Gebäudes mit der angegebenen ID zurück.
 
-**Achtung**: funktioniert nur beim **lokalen Spieler**!\
-⇒ **Desync-Gefahr** wenn im Folgenden mit **lokalen Funktionen** das Spiel beeinflusst wird (siehe [place-buildings-1.md](../../tutorials/advanced-tipps/place-buildings-1.md "mention")).
+#### Parameter
+
+* `buildingID`: ID des Gebäudes
 
 #### Rückgabewert
 
-* Gebäude-Typ [buildings.md](../../api-enums/buildings.md "mention")
-* 0: sonst (nicht aktiv) / Fehler
+* Buildings.UNDERCONSTRUCTION (siehe [buildings.md](../../api-enums/buildings.md "mention"), =0): das Gebäude ist noch eine Baustelle
+* Buildings.READY (=1): das Gebäude ist fertiggestellt
+* -1: sonst / Fehler
 
 #### Beispiel
 
 ```lua
-local buildingType = SU.Buildings.GetActiveBuildingPlacement()
+local buildingState = SU.Buildings.GetConstructionState(buildingID)
 ```

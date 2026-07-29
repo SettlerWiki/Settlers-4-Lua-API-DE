@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Gibt die Sekundenanzahl **der Uhr** rechts oben zurück.
 
-⇒ siehe [su.map.getheight-5.md](su.map.getheight-5.md "mention")
+⇒ siehe [su.time.gettotalseconds.md](su.time.gettotalseconds.md "mention")
 
 #### Rückgabewert
 

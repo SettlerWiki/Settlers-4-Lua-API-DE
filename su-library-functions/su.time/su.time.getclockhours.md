@@ -8,7 +8,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 Gibt die Stundenanzahl **der Uhr** rechts oben zurück
 
-⇒ siehe [su.map.getheight-3.md](su.map.getheight-3.md "mention")
+⇒ siehe [su.time.gettotalhours.md](su.time.gettotalhours.md "mention")
 
 #### Parameter
 
