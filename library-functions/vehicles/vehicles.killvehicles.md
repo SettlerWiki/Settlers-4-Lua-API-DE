@@ -4,6 +4,8 @@
 
 Entfernt alles Fahrzeuge eines bestimmten Spielers und eines bestimmten Typs aus einem bestimmten Bereich.
 
+`Radius [0-74]`
+
 #### Rückgabewert
 
 True oder False

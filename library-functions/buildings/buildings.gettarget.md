@@ -6,7 +6,7 @@ Gibt das Ziel des Gebäudes zurück. Marktplätze und Häfen können diese Funkt
 
 #### Rückgabewert
 
-DDie GebäudeID des Ziels
+Die Gebäude-ID des Ziels
 
 #### Beispiel
 

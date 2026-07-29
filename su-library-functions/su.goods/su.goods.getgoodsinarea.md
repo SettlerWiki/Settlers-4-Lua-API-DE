@@ -17,7 +17,7 @@ Ist eine auf Waren limitierte Version von [su.entity.getentitiesinarea.md](../su
 * `goodType`: [goods.md](../../api-enums/goods.md "mention") , -1 wenn keine Waren-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 
 #### Rückgabewert
 

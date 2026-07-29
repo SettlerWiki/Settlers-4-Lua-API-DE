@@ -24,7 +24,7 @@ Gibt die Entity-IDs der Entitäten im gegebenen Bereich zurück.
 * `entityType`: [su.entitytypes.md](../../su-api-enums/su.entitytypes.md "mention") , -1 wenn keine Entity-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 * `skipInhabitants` (optional): ob Insassen (Soldaten) beachtet werden sollen oder nicht. Arbeiter werden immer berücksichtigt!
 
 #### Rückgabewert

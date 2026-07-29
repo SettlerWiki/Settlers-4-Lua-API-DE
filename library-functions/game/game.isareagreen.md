@@ -4,7 +4,7 @@
 
 Überprüft, ob in einem Gebiet Spuren des dunklen Landes vorhanden sind.
 
-`Radius`: > 0
+`Radius [0-74]`
 
 #### Rückgabewert
 

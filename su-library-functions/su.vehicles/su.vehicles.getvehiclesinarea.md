@@ -17,7 +17,7 @@ Ist eine auf Fahrzeuge/Schiffe limitierte Version von [su.entity.getentitiesinar
 * `vehicleType`: [vehicles.md](../../api-enums/vehicles.md "mention") , -1 wenn keine Fahrzeug-/Schiff-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 
 #### Rückgabewert
 

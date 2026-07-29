@@ -11,7 +11,7 @@ Entfernt alle Bäume im Bereich.
 #### Parameter
 
 * `x,y`: Koordinaten
-* `radius`: Radius
+* `radius [0-74]`: Radius
 
 #### Beispiel
 

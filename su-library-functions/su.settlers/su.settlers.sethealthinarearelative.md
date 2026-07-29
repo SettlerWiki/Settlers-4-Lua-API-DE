@@ -21,7 +21,7 @@ Setzt die relativen Lebenspunkte der angegebenen Siedler im gegebenen Bereich.
 * `settlerType`: [settlers.md](../../api-enums/settlers.md "mention") , -1 für alle Siedler
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 * `relativeHealth`: neue relativen Lebenspunkte (siehe Notizen)
 
 #### Rückgabewert

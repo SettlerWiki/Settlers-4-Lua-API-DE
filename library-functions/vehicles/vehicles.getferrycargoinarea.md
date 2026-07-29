@@ -4,6 +4,8 @@
 
 Ermittelt die Passagiere der Fähren im genannten Gebiet.
 
+`Radius [0-74]`
+
 #### Rückgabewert
 
 Anzahl der Spezialisten, Anzahl der Soldaten Level 1-3 (ohne Unterscheidung in Typen), Anzahl der Hauptmänner, Anzahl der Gründungskarren.

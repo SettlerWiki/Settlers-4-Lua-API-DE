@@ -11,7 +11,7 @@ Entfernt alle **Deko**-Steine im Bereich, **nicht** abbaubare.
 #### Parameter
 
 * `x,y`: Koordinaten
-* `radius`: Radius
+* `radius [0-74]`: Radius
 
 #### Beispiel
 

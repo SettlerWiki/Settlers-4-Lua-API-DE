@@ -4,7 +4,7 @@
 
 Ermittelt die Anzahl der Siedler eines Typs und Spielers in einem bestimmten Gebiet.
 
-`Radius`: > 0
+`Radius [0-74]`
 
 #### Rückgabewert
 

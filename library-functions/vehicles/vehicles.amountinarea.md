@@ -4,6 +4,8 @@
 
 Ermittelt, wie viele Fahrzeuge eines Typs ein Spieler in einem bestimmten Gebiet besitzt.
 
+`Radius [0-74]`
+
 #### Rückgabewert
 
 Menge

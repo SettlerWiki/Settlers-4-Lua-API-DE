@@ -4,6 +4,8 @@
 
 Funktioniert als ein Lazarettbefehl - alle Einheiten vom `Siedlertyp` die unter der angegeben `UnderOrExactlyHealth` sind, werden geheilt.
 
+`Radius [0-74]`
+
 #### Notiz
 
 * Diese Funktion **setzt nicht** dem Namen entsprechend die **Lebenspunkte**, **sondern heilt!**\

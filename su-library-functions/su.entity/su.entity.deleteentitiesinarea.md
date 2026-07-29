@@ -27,7 +27,7 @@ Eine **Entität** ist alles, was im Spiel als "physisches Objekt" vorkommt: d.h.
 * `playerID`: ID des Spielers (1-8), Index 0 ungültig, -1 wenn keine Spieler gefiltert werden sollen
 * `entityType`: [su.entitytypes.md](../../su-api-enums/su.entitytypes.md "mention") , -1 wenn keine Entity-Typen gefiltert werden sollen
 * `x, y`: Koordinaten
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 * `killInhabitantsAndWorker`(optional): ob Insassen (Soldaten) und Arbeiter direkt mit dem Gebäude gelöscht werden sollen (1) oder nicht (0)
 
 #### Beispiel

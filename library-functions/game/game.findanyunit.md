@@ -4,7 +4,7 @@
 
 Prüft, ob sich eine Einheit des Spielers am angegebenen Bereich befindet.
 
-`Radius`: > 0
+`Radius [0-74]`
 
 #### Rückgabewert
 

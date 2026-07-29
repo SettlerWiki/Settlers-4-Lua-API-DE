@@ -4,7 +4,7 @@
 
 Ermittelt die Menge einer Ware in einem bestimmten Gebiet.
 
-`Radius`: > 0
+`Radius [0-74]`
 
 `Spieler = -1`: egal welcher Spieler
 

@@ -4,7 +4,7 @@
 
 Testet, ob um die Koordinaten `x, y` im `Radius` ein Gebäude des `Gebäudetyp` der `Partei` vorhanden ist.
 
-`Radius`: > 0
+`Radius [0-74]`
 
 `Gabäudestatus` scheint keinen Einfluss zu haben...
 

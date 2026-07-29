@@ -14,7 +14,7 @@ Gibt die Entity-Id des ersten gefundenen Gebäudes im gegebenen Bereich zurück.
 * `buildingType`: ID des Gebäude-Typs (siehe [Enum-Tabelle](../../api-enums/buildings.md)), -1 wenn keine Gebäude-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 
 #### Rückgabewert
 

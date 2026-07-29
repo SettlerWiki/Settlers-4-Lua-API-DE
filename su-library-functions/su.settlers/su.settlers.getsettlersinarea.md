@@ -17,7 +17,7 @@ Ist eine auf Siedler limitierte Version von [su.entity.getentitiesinarea.md](../
 * `settlerType`: [settlers.md](../../api-enums/settlers.md "mention") , -1 wenn keine Siedler-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 
 #### Rückgabewert
 

@@ -17,7 +17,7 @@ Ist eine auf Gebäude limitierte Version von [su.entity.getentitiesinarea.md](..
 * `buildingType`: ID des Gebäude-Typs (siehe [Enum-Tabelle](../../api-enums/buildings.md)), -1 wenn keine Gebäude-Typen gefiltert werden sollen
 * `x`: x-Koordinate des Bereichs
 * `y`: y-Koordinate des Bereichs
-* `radius`: Radius des Bereichs
+* `radius [0-74]`: Radius des Bereichs
 * `buildingState` (optional): Gebäudestatus nach dem gesucht werden soll (siehe [buildings.md](../../api-enums/buildings.md "mention"))
 
 #### Rückgabewerte
