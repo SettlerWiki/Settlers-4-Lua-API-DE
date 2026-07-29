@@ -2,11 +2,11 @@
 description: 'SU Library: ab Version 0.7.0'
 ---
 
-# SU.Math.acos
+# SU.Math.asin
 
-## SU.Math.acos(value)
+## SU.Math.asin(value)
 
-Gibt den Arkuskosinus (Umkehrfunktion von `cos` [su.math.cos.md](su.math.cos.md "mention"), entspricht `cos^-1`) **in Radiant** zurück ([su.math.rad.md](su.math.rad.md "mention")).
+Gibt den Arkussinus (Umkehrfunktion von `sin` [su.math.sin.md](su.math.sin.md "mention"), entspricht `sin`<sup>`-1`</sup>) **in Radiant** zurück ([su.math.rad.md](su.math.rad.md "mention")).
 
 {% hint style="info" %}
 Winkelfunktionen arbeiten mit **Gleitkomma**zahlen, daher sollte das **End**resultat meist **gerundet werden**! **Zwischen**resultate können und sollen meist **so bleiben** wie sie sind. **Beispiel:**
@@ -23,11 +23,11 @@ local roundedDegrees = SU.Math.round(degrees)    -- liefert 180
 
 #### Rückgabewert
 
-* `number` – Winkel im Intervall \[0, pi] (in **Radiant**)
-* `nan` (not a number [su.math.isnan.md](su.math.isnan.md "mention")): Fehler bei Eingaben außerhalb von \[-1, 1]
+* `number` – Winkel im Intervall \[-pi/2, pi/2] (in **Radiant**)
+* `nan` (not a number, [su.math.isnan.md](su.math.isnan.md "mention")): Fehler bei Eingaben außerhalb von \[-1, 1]
 
 #### Beispiel
 
 ```lua
-local acosValue = SU.Math.acos(-0.9)    -- liefert ca. 2.69 rad
+local asinValue = SU.Math.asin(0.5)    -- liefert ca. 0.5236 rad (30 Grad)
 ```
