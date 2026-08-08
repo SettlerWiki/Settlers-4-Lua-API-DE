@@ -12,7 +12,7 @@ Gibt die Entity-IDs der Entitäten im gegebenen Bereich zurück.
 
 **Andere limitierte Versionen** sind:
 
-* [su.buildings.getbuildingsinarea.md](../su.buildings/su.buildings.getbuildingsinarea.md "mention")
+* [su.buildings.getbuildingsinarea-1.md](../su.buildings/su.buildings.getbuildingsinarea-1.md "mention")
 * [su.goods.getgoodsinarea.md](../su.goods/su.goods.getgoodsinarea.md "mention")
 * [su.settlers.getsettlersinarea.md](../su.settlers/su.settlers.getsettlersinarea.md "mention")
 * [su.vehicles.getvehiclesinarea.md](../su.vehicles/su.vehicles.getvehiclesinarea.md "mention")

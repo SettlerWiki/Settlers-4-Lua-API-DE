@@ -6,7 +6,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 ## SU.Buildings.GetLastBuilding(playerID, buildingType, buildingState=Buildings.ALL)
 
-Gibt die letzte (=neueste) Gebäude-ID vom angegebenen Gebäude-Typs zurück um beispielsweise durch alle Gebäude dieses Typs zu iterieren. ⇒ [su.buildings.getpreviousbuilding.md](su.buildings.getpreviousbuilding.md "mention")
+Gibt die letzte (=**älteste**) Gebäude-ID vom angegebenen Gebäude-Typs zurück um beispielsweise durch alle Gebäude dieses Typs zu iterieren. ⇒ [su.buildings.getpreviousbuilding.md](su.buildings.getpreviousbuilding.md "mention")
 
 #### Parameter
 

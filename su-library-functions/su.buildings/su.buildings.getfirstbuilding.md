@@ -6,7 +6,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 ## SU.Buildings.GetFirstBuilding(playerID, buildingType, buildingState=Buildings.ALL)
 
-Gibt die erste (=**älteste**) Gebäude-ID vom angegebenen Gebäude-Typs zurück um beispielsweise durch alle Gebäude dieses Typs zu iterieren. ⇒ [su.buildings.getnextbuilding.md](su.buildings.getnextbuilding.md "mention")
+Gibt die erste (=**neueste**) Gebäude-ID vom angegebenen Gebäude-Typs zurück um beispielsweise durch alle Gebäude dieses Typs zu iterieren. ⇒ [su.buildings.getnextbuilding.md](su.buildings.getnextbuilding.md "mention")
 
 #### Parameter
 

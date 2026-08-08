@@ -18,7 +18,7 @@ Zeigt die Nachricht im Chat an.
 
 * `lifetime_s` (optional): Zeit in Echtzeit-Sekunden (nicht Spielzeit!), wie lange die Nachricht sichtbar sein soll. Danach verschwindet sie von alleine. \
   `lifetime_s=-1` bewirkt, dass die **Nachricht** (selbst beim Klick darauf) **nicht verschwindet!**\
-  &#xNAN;**`lifetime_s=-2`** ist die am längsten bestehende aber wegklickbare Nachricht.
+  **`lifetime_s=-2`** ist die am längsten bestehende aber wegklickbare Nachricht.
 * `x, y` (optional): Koordinaten, zu denen der Bildschirm springt, wenn auf die Nachricht gedrückt wird.
 
 #### Beispiel

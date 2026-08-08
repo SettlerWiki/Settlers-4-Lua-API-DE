@@ -2,7 +2,9 @@
 
 ## `Buildings.GetFirstBuilding(Partei, Gebäudetyp)`
 
-Sucht nach dem Gebäude der angegebenen Partei und des angegebenen Gebäudetyps und gibt das neueste Gebäude zurück.
+Gibt die erste (=**neueste**) Gebäude-ID vom angegebenen Gebäude-Typs zurück um beispielsweise durch alle Gebäude dieses Typs zu iterieren. ⇒ [su.buildings.getnextbuilding.md](../../su-library-functions/su.buildings/su.buildings.getnextbuilding.md "mention")
+
+⇒ Siehe [su.buildings.getfirstbuilding.md](../../su-library-functions/su.buildings/su.buildings.getfirstbuilding.md "mention") um auch nach dem **Gebäudestatus** (Baustelle vs. fertiggestellt) zu filtern.
 
 #### Notiz
 
