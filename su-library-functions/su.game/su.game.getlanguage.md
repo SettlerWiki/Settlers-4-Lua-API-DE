@@ -4,7 +4,7 @@ description: 'SU Library: ab Version 0.2.0'
 
 # SU.Game.GetLanguage
 
-## Game.GetLanguage()
+## SU.Game.GetLanguage()
 
 Gibt die Spielsprache zurück.
 
