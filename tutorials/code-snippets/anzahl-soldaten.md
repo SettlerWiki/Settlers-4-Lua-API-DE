@@ -47,13 +47,13 @@ function getAmountOfPlayerUnits(playerId)
 	-- Spezial Wiki
 	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.AXEWARRIOR_01) + Settlers.Amount(playerId, Settlers.AXEWARRIOR_02) + Settlers.Amount(playerId, Settlers.AXEWARRIOR_03)
 	-- Spezial Maya
-	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.BLOWGUNWARRIORS_01) + Settlers.Amount(playerId, Settlers.BLOWGUNWARRIORS_02) + Settlers.Amount(playerId, Settlers.BLOWGUNWARRIORS_03)
+	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.BLOWGUNWARRIOR_01) + Settlers.Amount(playerId, Settlers.BLOWGUNWARRIOR_02) + Settlers.Amount(playerId, Settlers.BLOWGUNWARRIOR_03)
 	-- Spezial Trojaner
-	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.BACKPACKCATAPULIST_01)	+ Settlers.Amount(playerId, Settlers.BACKPACKCATAPULIST_02) + Settlers.Amount(playerId, Settlers.BACKPACKCATAPULIST_03)
+	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.BACKPACKCATAPULTIST_01)	+ Settlers.Amount(playerId, Settlers.BACKPACKCATAPULTIST_03) + Settlers.Amount(playerId, Settlers.BACKPACKCATAPULTIST_03)
 	-- Spezial Römer
 	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.MEDIC_01) + Settlers.Amount(playerId, Settlers.MEDIC_02) + Settlers.Amount(playerId, Settlers.MEDIC_03)	
 	-- Hauptmaenner
-	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.SQUADLEADER) 	
+	AmoutOfMilitary = AmoutOfMilitary + Settlers.Amount(playerId, Settlers.SQUADLEADER)
 	
 	return AmoutOfMilitary 
 end 
