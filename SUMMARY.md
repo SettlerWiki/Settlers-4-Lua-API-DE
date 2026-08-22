@@ -3,7 +3,7 @@
 ## Tutorials
 
 * [Einführung](README.md)
-* [SU Library (0.6.4)](tutorials/su-library/README.md)
+* [SU Library (0.7.0)](tutorials/su-library/README.md)
   * [SUVars: mehr speicherbare Variablen](tutorials/su-library/suvars.md)
 * [Erste Schritte](tutorials/aller-anfang/README.md)
   * [Einrichtung & HelloWorld](tutorials/aller-anfang/einrichtung-and-helloworld.md)
