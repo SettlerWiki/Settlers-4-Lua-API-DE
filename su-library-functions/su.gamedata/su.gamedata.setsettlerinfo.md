@@ -4,7 +4,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 # SU.GameData.SetSettlerInfo
 
-## SU.GameData.GetSettlerInfo(tribe, settlerType, settlerField)
+## SU.GameData.SetSettlerInfo(tribe, settlerType, settlerField, value)
 
 {% hint style="info" %}
 Siehe [.](./ "mention")
@@ -28,6 +28,5 @@ Setzt/überschreibt einen bestimmten Informationswert (Prototyp-Eigenschaft) ein
 
 ```lua
 -- setzt den Schaden, der von Bogenschützen Level 2 vom Maja verursacht wird (ohne Kampfkraft-Skalierung) auf 20
--- FUNKTIONIERT AKTUELL z.B. noch NICHT, weil intern von SU überschrieben
 local success = SU.GameData.SetSettlerInfo(SU.Tribes.MAYA, Settlers.BOWMAN_02, SU.GameData.SETTLER_FIELD_DAMAGE, 20)
 ```

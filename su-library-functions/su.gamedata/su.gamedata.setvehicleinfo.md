@@ -4,7 +4,7 @@ description: 'SU Library: ab Version 0.7.0'
 
 # SU.GameData.SetVehicleInfo
 
-## SU.GameData.GetVehicleInfo(tribe, vehicleType, vehicleField)
+## SU.GameData.SetVehicleInfo(tribe, vehicleType, vehicleField, value)
 
 {% hint style="info" %}
 Siehe [.](./ "mention")
